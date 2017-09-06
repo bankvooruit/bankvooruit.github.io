@@ -66,13 +66,104 @@ a:hover {
 }
 
 
+/*********
+ * Tiles *
+ *********/
+
+.tile {
+	flex-direction: row;
+	align-items: stretch;
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0.5em;
+}
+
+.tile.is-vertical {
+    flex-direction: column;
+}
+
+.tile.is-parent {
+    margin: 0;
+	padding: 0;
+}
+
+.tile.is-not-growing {
+    flex-grow: 0;
+  }
+  
+.tile.is-not-shrinking {
+    flex-shrink: 0;
+  }
+
+.tile-content {
+	background-color: white;
+	margin: 0 !important;
+	padding: 1em;
+	width: 100%;
+}
+
+.image-tile {
+	margin: auto;
+}
+
+.image-tile > img {
+	width: 100%;
+}
+
 /***********
  * Content *
  ***********/
 
 #content-wrapper {
 	margin: auto;
-	width: 50%;
-	background-color: white;
+	width: 90%;
 	padding: 2em;
+	
+	display: flex;
+	flex-direction: column
+}
+
+.who-is-who {
+	display:flex;
+	direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.who-is-who .pic {
+	width: 100px;
+	margin-right: 1em;
+}
+
+.practical-info {
+	display:flex;
+	direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.practical-info .city-pic > img {
+	width: 100px;
+}
+
+.practical-info .ngo-pic > img {
+	width: 100px;
+}
+
+.ngo-info {
+	display:flex;
+	direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.ngo-info .ngo-pic > img {
+	width: 100px;
+	margin-right: 1em;
+}
+
+.text-block {
+	margin-top: -1em;
+	white-space: pre-line;
 }
