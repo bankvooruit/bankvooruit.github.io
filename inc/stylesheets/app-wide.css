@@ -146,6 +146,18 @@ a:hover {
 	width: 100px;
 }
 
+.ngo-info {
+	display:flex;
+	direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.ngo-info .ngo-pic > img {
+	width: 100px;
+	margin-right: 1em;
+}
+
 .text-block {
 	margin-top: -1em;
 	white-space: pre-line;
