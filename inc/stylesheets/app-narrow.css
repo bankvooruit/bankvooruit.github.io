@@ -31,13 +31,32 @@ a:hover {
  * Header *
  **********/
 
+
 #top-navigation {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
+	
+	background-color: white;
+	margin-bottom: 3em;
+	padding: 1em 0;
+}
+
+.top-navigation-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
+}
+
+.top-navigation-element {
+	text-align: right;
+	width: 100%;
+	padding: 0 1em;
 }
 
 .menu-button {
 	padding: 1em;
-	background-attachment: orange;
 }

@@ -1,0 +1,58 @@
+
+/****************************** COLOR VALUES *******************************
+    
+    #FFCE8D     dark orange
+	#EA8500		darker orange
+	#c97200		darkest orange, hyperlinks
+	#ffe4c0		light orange
+    
+    #FFFFFF     white
+    
+ ***************************************************************************/
+
+/* body */
+body {
+	height: 100%;
+	margin: auto;
+	font: 14px "Tunga", "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: #FFCE8D;
+}
+ 
+/* hyperlinks */
+a {
+    text-decoration: none;
+    color: #c97200;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/**********
+ * Header *
+ **********/
+
+
+#top-navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+	padding: 1em;
+	background-color: white;
+	margin-bottom: 3em;
+}
+
+.top-navigation-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-navigation-element {
+}
+
+.menu-button {
+	padding: 1em;
+}
