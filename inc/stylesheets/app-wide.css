@@ -117,3 +117,15 @@ a:hover {
 	display: flex;
 	flex-direction: 
 }
+
+.who-is-who {
+	display:flex;
+	direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.who-is-who .pic {
+	width: 100px;
+	margin-right: 1em;
+}
