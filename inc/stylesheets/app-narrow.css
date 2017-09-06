@@ -11,11 +11,15 @@
  ***************************************************************************/
 
 /* body */
+html  {
+	background: url(/res/background.jpg) no-repeat center center fixed, #FFCE8D; 
+	background-size: cover;
+}
+
 body {
 	height: 100%;
 	margin: auto;
 	font: 14px "Tunga", "Lucida Grande", Helvetica, Arial, sans-serif;
-	background: #FFCE8D;
 }
  
 /* hyperlinks */
@@ -59,4 +63,16 @@ a:hover {
 
 .menu-button {
 	padding: 1em;
+}
+
+
+/***********
+ * Content *
+ ***********/
+
+#content-wrapper {
+	margin: auto;
+	width: 50%;
+	background-color: white;
+	padding: 2em;
 }
