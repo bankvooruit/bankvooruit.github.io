@@ -242,3 +242,15 @@ a:hover {
 	margin-top: -1em;
 	white-space: pre-line;
 }
+
+/*********
+ * Icons *
+ *********/
+.fa {
+	color: black;
+	font-size: larger;
+}
+
+.menu-icon {
+	margin-right: 0.5em;
+}

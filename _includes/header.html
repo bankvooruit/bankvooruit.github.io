@@ -21,8 +21,9 @@
 	
 	<!-- CSS files -->
 	<link rel="stylesheet" type="text/css" href="{{ site.incl-path }}/stylesheets/normalize.css">
-	<link rel="stylesheet" media="screen and (max-width: 700px)" href="{{ site.incl-path }}/stylesheets/app-narrow.css" />
-	<link rel="stylesheet" media="screen and (min-width: 701px)" href="{{ site.incl-path }}/stylesheets/app-wide.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 700px)" href="{{ site.incl-path }}/stylesheets/app-narrow.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 701px)" href="{{ site.incl-path }}/stylesheets/app-wide.css" />
+	<link rel="stylesheet" type="text/css" href="{{ site.incl-path }}/font-awesome/css/font-awesome.min.css">
 </head>
 		
 <body>
@@ -31,7 +32,7 @@
 		<!-- Menu -->
 		<nav id="top-navigation">
 			<input type="checkbox" id="menuToggle" class="menu-toggle"/>
-			<label class="top-navigation-element menu-button menu-toggle" for="menuToggle">Menu</label>
+			<label class="top-navigation-element menu-button menu-toggle" for="menuToggle"><span><i class="fa menu-icon fa-bars" aria-hidden="true"></i>Menu</span></label>
 			<div id="top-main-navigation">
 				<div class="top-navigation-group menu-content">
 					<a class="top-navigation-element menu-button" href="/">Bank Vooruit</a>
@@ -43,7 +44,7 @@
 					<a class="top-navigation-element menu-button" href="/goede_doelen/">Goede doelen</a>
 				</div>
 				<div class="top-navigation-group menu-content">
-					<a  class="top-navigation-element menu-button button-facebook" target="blank" href="http://www.facebook.com/theaterbankvooruit">FB</a>
+					<a  class="top-navigation-element menu-button button-facebook" target="blank" href="http://www.facebook.com/theaterbankvooruit"><span class="fa fa-facebook-square" aria-hidden="true"></span></a>
 				</div>
 			</div>
 		</nav
