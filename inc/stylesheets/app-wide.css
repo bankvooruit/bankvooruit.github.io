@@ -34,17 +34,21 @@ a:hover {
 /**********
  * Header *
  **********/
-
-
+ 
 #top-navigation {
+	margin-bottom: 3em;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+	z-index: 100;
+}
+
+#top-main-navigation {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 	
-	padding: 1em 0.5em;
+	padding: 0;
 	background-color: white;
-	margin-bottom: 3em;
 }
 
 .top-navigation-group {
@@ -59,8 +63,20 @@ a:hover {
 
 .menu-button {
 	padding: 1em;
+	color: black;
 }
 
+.menu-button:hover {
+	cursor: pointer;
+	background-color: #fff4e6;
+	text-decoration: none;
+}
+
+/* opening and closing the menu */
+.menu-toggle {
+	display: none;
+}
+ 
 /*********
  * Tiles *
  *********/

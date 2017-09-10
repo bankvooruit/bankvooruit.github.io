@@ -34,17 +34,21 @@ a:hover {
 /**********
  * Header *
  **********/
-
-
+ 
 #top-navigation {
+	margin-bottom: 3em;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+	z-index: 100;
+}
+
+#top-main-navigation {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-end;
 	
+	padding: 0;
 	background-color: white;
-	margin-bottom: 3em;
-	padding: 1em 0;
 }
 
 .top-navigation-group {
@@ -57,14 +61,66 @@ a:hover {
 
 .top-navigation-element {
 	text-align: right;
-	width: 100%;
 	padding: 0 1em;
+	width: 100%;
 }
 
 .menu-button {
 	padding: 1em;
+	color: black;
 }
 
+.top-navigation-element:hover {
+	cursor: pointer;
+	background-color: #fff4e6;
+	text-decoration: none;
+}
+
+/* opening and closing the menu */
+#menuToggle {
+	display: none;
+	width: 0;
+}
+
+.menu-toggle {
+	width: auto;
+}
+
+#menuToggle + label {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	
+	background-color: white;
+}
+
+#menuToggle:checked + label {
+	background-color: #ffd399;
+}
+
+#top-main-navigation {
+	transform-origin: 0% 0%;
+	transform: scale(1,0);
+	height: 0;
+	
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-moz-transition: transform ease 250ms, height ease 250ms;
+	-o-transition: transform ease 250ms, height ease 250ms;
+	transition: transform ease 250ms, height ease 250ms;
+}
+
+#menuToggle:checked ~ #top-main-navigation {
+	transform: scale(1, 1);
+	height: auto;
+	
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-moz-transition: transform ease 250ms, height ease 250ms;
+	-o-transition: transform ease 250ms, height ease 250ms;
+	transition: transform ease 250ms, height ease 250ms;
+}
 
 /*********
  * Tiles *
@@ -116,7 +172,8 @@ a:hover {
  ***********/
 
 #content-wrapper {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 90%;
 	padding: 2em;
 	
