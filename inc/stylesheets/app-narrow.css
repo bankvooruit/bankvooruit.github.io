@@ -215,11 +215,11 @@ a:hover {
 	display:flex;
 	direction: row;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .practical-info .city-pic > img {
-	width: 100px;
+	width: 200px;
 }
 
 .practical-info .ngo-pic > img {
