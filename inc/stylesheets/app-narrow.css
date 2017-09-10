@@ -132,10 +132,28 @@ a:hover {
 }
 
 .who-is-who .pic {
-	width: 100px;
 	margin-right: 1em;
+	position: relative;
 }
 
+.who-is-who .pic img {
+	width: 100px;
+}
+
+.who-is-who .pic .close-up {
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition: opacity 750ms ease;
+	-webkit-transition: opacity 750ms ease;
+	-moz-transition: opacity 750ms ease;
+	-o-transition: opacity 750ms ease;
+	transition: opacity 750ms ease;
+}
+
+.who-is-who:hover .pic .close-up {
+	opacity: 0;
+}
 .practical-info {
 	display:flex;
 	direction: row;
