@@ -1,18 +1,19 @@
 
 /****************************** COLOR VALUES *******************************
     
-    #FFCE8D     dark orange
-	#EA8500		darker orange
-	#c97200		darkest orange, hyperlinks
-	#ffe4c0		light orange
-    
-    #FFFFFF     white
+    #feecc7     header and footer
+	#fccf85		if dropdown menu is open, this is the color of the 'close menu button'
+	#f6c18a		selected header item & background
+	#c97200		hyperlinks
+	
+	#fbd382		yellowisch - not used
+	#f1b378		brownisch - not used
     
  ***************************************************************************/
 
 /* body */
 html  {
-	background: url(/res/background.jpg) no-repeat center center fixed, #FFCE8D; 
+	background: url(/res/background.jpg) no-repeat center center fixed, #f6c18a; 
 	background-size: cover;
 }
 
@@ -63,7 +64,7 @@ a:hover {
 	align-items: flex-end;
 	
 	padding: 0;
-	background-color: white;
+	background-color: #feecc7;
 }
 
 .top-navigation-group {
@@ -83,7 +84,7 @@ a:hover {
 
 .menu-button:hover {
 	cursor: pointer;
-	background-color: #fff4e6;
+	background-color: #f6c18a;
 	text-decoration: none;
 }
 
@@ -96,6 +97,11 @@ a:hover {
 .menu-toggle {
 	display: none;
 }
+
+.side-items {
+	width: 150px;
+}
+
  
 /*********
  * Tiles *
@@ -283,7 +289,7 @@ a:hover {
 	justify-content: space-between;
 	align-items: center;
 	
-	background-color: white;
+	background-color: #feecc7;
 	
 	margin-top: 3em;
 }
