@@ -80,6 +80,11 @@ a:hover {
 	margin-right: 0.5em;
 }
 
+.header-icon {
+	height: 30px;
+	margin: -10px 0;
+}
+
 /* opening and closing the menu */
 #menuToggle {
 	display: none;
