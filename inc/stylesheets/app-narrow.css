@@ -18,8 +18,23 @@ html  {
 
 body {
 	height: 100%;
+	min-height: 100vh;
 	margin: auto;
 	font: 14px "Tunga", "Lucida Grande", Helvetica, Arial, sans-serif;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* titles */
+h1 {
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 0;
 }
  
 /* hyperlinks */
@@ -254,9 +269,12 @@ a:hover {
 	margin-right: 1em;
 }
 
-.text-block {
-	margin-top: -1em;
+.text-block > p {
 	white-space: pre-line;
+}
+
+.text-block > p:last-child {
+	margin-bottom: 0;
 }
 
 
