@@ -208,7 +208,7 @@ a:hover {
 
 .who-is-who {
 	display:flex;
-	direction: row;
+	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
 }
