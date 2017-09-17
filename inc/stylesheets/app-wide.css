@@ -126,11 +126,9 @@ a:hover {
 
 .image-tile {
 	margin: auto;
+	text-align: center;
 }
 
-.image-tile > img {
-	width: 100%;
-}
 
 /***********
  * Content *
@@ -143,6 +141,10 @@ a:hover {
 	
 	display: flex;
 	flex-direction: row;
+}
+
+.acht-pic {
+	width: 280px;
 }
 
 .who-is-who {
