@@ -20,7 +20,7 @@ body {
 	height: 100%;
 	min-height: 100vh;
 	margin: auto;
-	font: 14px "Tunga", "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 16px "Tunga", "Lucida Grande", Helvetica, Arial, sans-serif;
 	
 	display: flex;
 	flex-direction: column;
