@@ -206,6 +206,38 @@ a:hover {
 	flex-direction: column
 }
 
+.home {
+	text-align: center;
+}
+
+.home-pic {
+	margin-bottom: 3em;
+}
+
+.home-pic > a > img{
+	width: 100%;
+}
+
+.home-warmste-week > img {
+	width: 100px;
+	margin-bottom: 2em;
+}
+
+.home-cities {
+	margin-bottom: 1em;
+}
+
+.home-cities > img {
+	height: 50px;
+}
+
+.home-ngos {
+}
+
+.home-ngos > img {
+	height: 50px;
+}
+
 .who-is-who {
 	display:flex;
 	flex-direction: row;
