@@ -180,17 +180,26 @@ a:hover {
 
 .practical-info {
 	display:flex;
-	direction: row;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.practical-info .city-pic {
+	width: 200px;
+	text-align: center;
 }
 
 .practical-info .city-pic > img {
 	width: 200px;
 }
 
+.practical-info .text-block {
+	text-align: center;
+}
+
 .practical-info .ngo-pic > img {
-	width: 100px;
+	width: 150px;
 }
 
 .ngo-info {

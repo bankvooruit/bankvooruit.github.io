@@ -223,17 +223,23 @@ a:hover {
 }
 .practical-info {
 	display:flex;
-	direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .practical-info .city-pic > img {
 	width: 200px;
+	margin-bottom: 2em;
+}
+
+.practical-info .text-block {
+	text-align: center;
 }
 
 .practical-info .ngo-pic > img {
 	width: 100px;
+	margin-top: 2em;
 }
 
 .ngo-info {
