@@ -244,7 +244,7 @@ a:hover {
 }
 
 .practical-info .city-pic > img {
-	width: 200px;
+	width: 150px;
 	margin-bottom: 2em;
 }
 
@@ -253,7 +253,7 @@ a:hover {
 }
 
 .practical-info .ngo-pic > img {
-	width: 100px;
+	width: 150px;
 	margin-top: 2em;
 }
 
@@ -261,12 +261,12 @@ a:hover {
 	display:flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .ngo-info .ngo-pic > img {
 	width: 200px;
-	margin-right: 1em;
+	margin-bottom: 2em;
 }
 
 .text-block > p {

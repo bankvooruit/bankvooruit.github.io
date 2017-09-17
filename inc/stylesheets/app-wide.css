@@ -191,17 +191,12 @@ a:hover {
 .practical-info {
 	display:flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
-.practical-info .city-pic {
-	width: 200px;
-	text-align: center;
-}
-
 .practical-info .city-pic > img {
-	width: 200px;
+	width: 175px;
 }
 
 .practical-info .text-block {
@@ -209,7 +204,7 @@ a:hover {
 }
 
 .practical-info .ngo-pic > img {
-	width: 150px;
+	width: 175px;
 }
 
 .ngo-info {
