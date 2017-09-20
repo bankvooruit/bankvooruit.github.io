@@ -82,8 +82,9 @@ a:hover {
 	color: black;
 }
 
-.menu-button.has-no-padding {
+.menu-button.facebook-page-plugin {
 	padding: 0;
+	height: 70px;
 }
 
 .menu-button:hover {
