@@ -86,6 +86,11 @@ a:hover {
 	color: black;
 }
 
+.menu-button.facebook-page-plugin {
+	padding: 0;
+	height: 70px;
+}
+
 .top-navigation-element:hover {
 	cursor: pointer;
 	background-color: #f6c18a;
@@ -101,6 +106,9 @@ a:hover {
 	margin: -10px 0;
 }
 
+.facebook-hover-button {
+	display: none;
+}
 
 /* opening and closing the menu */
 #menuToggle {

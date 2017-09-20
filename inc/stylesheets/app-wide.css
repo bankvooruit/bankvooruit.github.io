@@ -82,6 +82,10 @@ a:hover {
 	color: black;
 }
 
+.menu-button.has-no-padding {
+	padding: 0;
+}
+
 .menu-button:hover {
 	cursor: pointer;
 	background-color: #f6c18a;
@@ -91,6 +95,44 @@ a:hover {
 .header-icon {
 	height: 30px;
 	margin: -10px 0;
+}
+
+.facebook-page-plugin {
+	transform-origin: 0% 0%;
+	transform: scale(1,0);
+	height: 0;
+	
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-moz-transition: transform ease 250ms, height ease 250ms;
+	-o-transition: transform ease 250ms, height ease 250ms;
+	transition: transform ease 250ms, height ease 250ms;
+}
+
+.facebook-hover-button:hover ~ .facebook-page-plugin {
+	transform: scale(1, 1);
+	height: auto;
+	
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-moz-transition: transform ease 250ms, height ease 250ms;
+	-o-transition: transform ease 250ms, height ease 250ms;
+	transition: transform ease 250ms, height ease 250ms;
+}
+
+.facebook-page-plugin:hover {
+	transform: scale(1, 1);
+	height: auto;
+	
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-webkit-transition: transform ease 250ms, height ease 250ms;
+	-moz-transition: transform ease 250ms, height ease 250ms;
+	-o-transition: transform ease 250ms, height ease 250ms;
+	transition: transform ease 250ms, height ease 250ms;
 }
 
 /* opening and closing the menu */
