@@ -233,6 +233,16 @@ a:hover {
 	margin-bottom: 2em;
 }
 
+.home-poster {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.home-poster > img {
+	width: 150px;
+	margin-bottom: 1em;
+}
+
 .home-cities {
 	margin-bottom: 1em;
 }
