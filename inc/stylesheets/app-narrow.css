@@ -234,13 +234,11 @@ a:hover {
 }
 
 .home-poster {
-	text-align: center;
 	margin-bottom: 2em;
 }
 
 .home-poster > img {
-	width: 150px;
-	margin-bottom: 1em;
+	width: 500px;
 }
 
 .home-cities {
