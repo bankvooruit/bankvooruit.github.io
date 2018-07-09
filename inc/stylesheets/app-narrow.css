@@ -4,7 +4,7 @@
     #feecc7     header and footer
 	#fccf85		if dropdown menu is open, this is the color of the 'close menu button'
 	#f6c18a		selected header item & background
-	#c97200		hyperlinks
+	#c97200		hyperlinks and buttons
 	
 	#fbd382		yellowisch - not used
 	#f1b378		brownisch - not used
@@ -244,7 +244,7 @@ a:hover {
 }
 
 .home-poster > img {
-	width: 500px;
+	width: 100%;
 }
 
 .home-cities {
