@@ -332,8 +332,20 @@ a:hover {
 	align-items: flex-start;
 }
 
+.acht-results {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 .acht-result {
 	text-align: center;
+}
+
+.acht-result > img{
+	height: 50px;
 }
 
 .ngo-info .ngo-pic > img {

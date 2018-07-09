@@ -343,6 +343,18 @@ a:hover {
 	text-align: center;
 }
 
+.acht-results {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.acht-result > img{
+	height: 50px;
+}
+
 .text-block > p {
 	white-space: pre-line;
 }
