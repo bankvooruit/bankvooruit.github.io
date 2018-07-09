@@ -339,16 +339,8 @@ a:hover {
 	margin-bottom: 2em;
 }
 
-.acht-result {
-	text-align: center;
-}
-
 .acht-results {
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+	border: 1px solid transparent
 }
 
 .acht-result > img{

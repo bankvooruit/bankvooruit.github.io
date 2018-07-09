@@ -333,15 +333,7 @@ a:hover {
 }
 
 .acht-results {
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
-.acht-result {
-	text-align: center;
+	border: 1px solid transparent
 }
 
 .acht-result > img{
