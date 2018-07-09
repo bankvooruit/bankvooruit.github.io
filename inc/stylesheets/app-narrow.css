@@ -156,6 +156,12 @@ a:hover {
 	transition: transform ease 250ms, height ease 250ms;
 }
 
+.action-button {
+	padding: 1em;
+	background-color: #c97200;
+	color: white;
+}
+
 /*********
  * Tiles *
  *********/
@@ -331,6 +337,10 @@ a:hover {
 .ngo-info .ngo-pic > img {
 	width: 200px;
 	margin-bottom: 2em;
+}
+
+.acht-result {
+	text-align: center;
 }
 
 .text-block > p {

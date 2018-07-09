@@ -145,6 +145,12 @@ a:hover {
 	width: 150px;
 }
 
+.action-button {
+	padding: 1em;
+	background-color: #c97200;
+	color: white;
+}
+
  
 /*********
  * Tiles *
@@ -324,6 +330,10 @@ a:hover {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
+}
+
+.acht-result {
+	text-align: center;
 }
 
 .ngo-info .ngo-pic > img {
