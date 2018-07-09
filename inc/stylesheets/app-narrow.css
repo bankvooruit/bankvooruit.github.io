@@ -352,6 +352,10 @@ a:hover {
 	margin-right: 1em;
 }
 
+.inschrijven {
+	text-align: center;
+}
+
 .text-block > p {
 	white-space: pre-line;
 }
