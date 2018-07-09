@@ -343,6 +343,10 @@ a:hover {
 	border: 1px solid transparent
 }
 
+.acht-results > td {
+	vertical-align: middle;
+}
+
 .acht-result > td > img {
 	width: 50px;
 	margin-right: 1em;
