@@ -343,7 +343,7 @@ a:hover {
 	border: 1px solid transparent
 }
 
-.acht-result > img{
+.acht-result > td > img {
 	height: 50px;
 }
 
