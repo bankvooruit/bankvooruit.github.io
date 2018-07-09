@@ -328,17 +328,18 @@ a:hover {
 	align-items: flex-start;
 }
 
+.ngo-info .ngo-pic > img {
+	width: 200px;
+	margin-right: 1em;
+}
+
 .acht-results {
 	border: 1px solid transparent
 }
 
 .acht-result > td > img {
-	height: 50px;
-}
-
-.ngo-info .ngo-pic > img {
-	width: 200px;
-	margin-right: 1em;
+	width: 50px;
+	margin-right: 0.5em;
 }
 
 .text-block > p {

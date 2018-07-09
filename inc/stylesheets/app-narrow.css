@@ -344,7 +344,8 @@ a:hover {
 }
 
 .acht-result > td > img {
-	height: 50px;
+	width: 50px;
+	margin-right: 0.5em;
 }
 
 .text-block > p {
