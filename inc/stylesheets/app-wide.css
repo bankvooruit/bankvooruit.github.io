@@ -1,10 +1,10 @@
 
 /****************************** COLOR VALUES *******************************
     
-    #feecc7     header and footer
-	#fccf85		if dropdown menu is open, this is the color of the 'close menu button'
-	#f6c18a		selected header item & background
-	#c97200		hyperlinks and buttons
+    #eeb450ff eeb450ff     header and footer
+	#e99e1eff	e99e1eff	if dropdown menu is open, this is the color of the 'close menu button'
+	#e99e1eff	e99e1eff	selected header item & background
+	#ac660ffb	ac660ffb	hyperlinks and buttons
 	
 	#fbd382		yellowisch - not used
 	#f1b378		brownisch - not used
@@ -13,7 +13,7 @@
 
 /* body */
 html  {
-	background: url(/res/background.jpg) no-repeat center center fixed, #f6c18a; 
+	background: url(/res/background.jpg) no-repeat center center fixed, #e99e1eff; 
 	background-size: cover;
 }
 
@@ -41,7 +41,7 @@ h2 {
 /* hyperlinks */
 a {
     text-decoration: none;
-    color: #c97200;
+    color: #ac660ffb;
 }
 a:hover {
     text-decoration: underline;
@@ -64,7 +64,7 @@ a:hover {
 	align-items: flex-end;
 	
 	padding: 0;
-	background-color: #feecc7;
+	background-color: #eeb450ff;
 }
 
 .top-navigation-group {
@@ -89,7 +89,7 @@ a:hover {
 
 .menu-button:hover {
 	cursor: pointer;
-	background-color: #f6c18a;
+	background-color: #e99e1eff;
 	text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ a:hover {
 
 .action-button {
 	padding: 1em;
-	background-color: #c97200;
+	background-color: #ac660ffb;
 	color: white;
 }
 
@@ -273,6 +273,21 @@ a:hover {
 	width: 100px;
 }
 
+.who-is-who .pic .close-up {
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition: opacity 750ms ease;
+	-webkit-transition: opacity 750ms ease;
+	-moz-transition: opacity 750ms ease;
+	-o-transition: opacity 750ms ease;
+	transition: opacity 750ms ease;
+}
+
+.who-is-who:hover .pic .close-up {
+	opacity: 0;
+}
+
 .practical-info {
 	display:flex;
 	flex-direction: row;
@@ -359,7 +374,7 @@ a:hover {
 	justify-content: space-between;
 	align-items: center;
 	
-	background-color: #feecc7;
+	background-color: #eeb450ff;
 	
 	margin-top: 3em;
 }

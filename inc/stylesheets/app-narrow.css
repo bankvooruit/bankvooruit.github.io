@@ -1,10 +1,10 @@
 
 /****************************** COLOR VALUES *******************************
     
-    #feecc7     header and footer
-	#fccf85		if dropdown menu is open, this is the color of the 'close menu button'
-	#f6c18a		selected header item & background
-	#c97200		hyperlinks and buttons
+    #eeb450ff   header and footer
+	#e99e1eff		if dropdown menu is open, this is the color of the 'close menu button'
+	#e99e1eff		selected header item & background
+	#ac660ffb	hyperlinks and buttons
 	
 	#fbd382		yellowisch - not used
 	#f1b378		brownisch - not used
@@ -13,7 +13,7 @@
 
 /* body */
 html  {
-	background: url(/res/background.jpg) no-repeat center center fixed, #f6c18a; 
+	background: url(/res/background.jpg) no-repeat center center fixed, #e99e1eff; 
 	background-size: cover;
 }
 
@@ -64,7 +64,7 @@ a:hover {
 	align-items: flex-end;
 	
 	padding: 0;
-	background-color: #feecc7;
+	background-color: #eeb450ff;
 }
 
 .top-navigation-group {
@@ -93,7 +93,7 @@ a:hover {
 
 .top-navigation-element:hover {
 	cursor: pointer;
-	background-color: #f6c18a;
+	background-color: #e99e1eff;
 	text-decoration: none;
 }
 
@@ -126,11 +126,11 @@ a:hover {
 	justify-content: space-between;
 	align-items: flex-end;
 	
-	background-color: #feecc7;
+	background-color: #eeb450ff;
 }
 
 #menuToggle:checked + label {
-	background-color: #fccf85;
+	background-color: #e99e1eff;
 }
 
 #top-main-navigation {
@@ -158,7 +158,7 @@ a:hover {
 
 .action-button {
 	padding: 1em;
-	background-color: #c97200;
+	background-color: #e99e1eff;
 	color: white;
 }
 
@@ -366,7 +366,7 @@ a:hover {
 	justify-content: space-between;
 	align-items: center;
 	
-	background-color: #feecc7;
+	background-color: #eeb450ff;
 	
 	margin-top: 3em;
 }
