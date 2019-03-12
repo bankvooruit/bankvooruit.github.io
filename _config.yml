@@ -22,3 +22,7 @@ github:
 # Global paths !! do not forget to change them in the .css files, the posts and down below !!
 res-path:         http://www.theaterbankvooruit.be/res
 incl-path:        http://www.theaterbankvooruit.be/inc
+
+# Scss
+sass:
+  style: compressed
