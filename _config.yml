@@ -7,10 +7,10 @@ permalink:        pretty
 
 # Setup
 title:            Bank Vooruit
-description:      Bank Vooruit QUIZT
-tagline:          Een gezellige quiz met een stevig vleugje BankVooruit-kruiden.
+description:      Bank Vooruit speelt De Code van de Kaart
+tagline:          Een spannenede familievoorstelling voor het goede doel.
 url:              /
-baseurl:          http://www.theaterbankvooruit.be
+baseurl:          https://www.theaterbankvooruit.be
 author:
   name:           Nele Rober
 
@@ -19,8 +19,8 @@ version:          1.0.0
 github:           [metadata]
 
 # Global paths !! do not forget to change them in the .css files, the posts and down below !!
-res-path:         http://www.theaterbankvooruit.be/res
-incl-path:        http://www.theaterbankvooruit.be/inc
+res-path:         https://www.theaterbankvooruit.be/res
+incl-path:        https://www.theaterbankvooruit.be/inc
 
 # Scss
 sass:
