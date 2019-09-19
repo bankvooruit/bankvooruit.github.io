@@ -29,7 +29,14 @@
 }
 
 .tile.is-2 {
-    max-width: 50%
+    max-width: 50%;
+}
+
+// for a narrow screen
+@media (max-width: $break-small) {
+	.tile.is-2 {
+	    max-width: none;
+	}
 }
 
 .tile-content {
