@@ -1,0 +1,13 @@
+#content-wrapper {
+	margin: auto;
+	width: 60%;
+	padding: 2em;
+
+	display: flex;
+  flex-direction: column;
+
+  .content-page {
+    display: flex;
+    flex-direction: row;
+  }
+}
