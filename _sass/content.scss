@@ -1,173 +1,173 @@
 #content-wrapper {
-	margin: auto;
-	width: 60%;
-	padding: 2em;
+  margin: auto;
+  width: 60%;
+  padding: 2em;
 
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 // for a narrow screen
 @media (max-width: $break-small) {
-	#content-wrapper {
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
+  #content-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 
-		flex-direction: column;
-	}
+    flex-direction: column;
+  }
 }
 
 .home {
-	text-align: center;
-	margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 .home-pic {
-	margin-bottom: 3em;
+  margin-bottom: 3em;
 }
 
-.home-pic > a > img{
-	width: 80%;
+.home-pic > a > img {
+  width: 80%;
 }
 
 .home-warmste-week > img {
-	width: 100px;
-	margin-bottom: 2em;
+  width: 100px;
+  margin-bottom: 2em;
 }
 
 .home-poster {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .home-poster > img {
-	width: 100%;
+  width: 100%;
 }
 
 .home-cities {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .home-cities > img {
-	height: 50px;
+  height: 50px;
 }
 
 .home-ngos {
 }
 
 .home-ngos > img {
-	height: 50px;
+  height: 50px;
 }
 
 .who-is-who {
-	display:flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-start;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 
-.who-is-who .pic {
-	margin-right: 1em;
-	position: relative;
-}
+  .pic {
+    margin-right: 1em;
+    position: relative;
 
-.who-is-who .pic img {
-	width: 100px;
-}
+    img {
+      width: 100px;
+    }
+  }
 
-.who-is-who .pic .close-up {
-	position: absolute;
-	left: 0;
-	top: 0;
-	-webkit-transition: opacity 750ms ease;
-	-webkit-transition: opacity 750ms ease;
-	-moz-transition: opacity 750ms ease;
-	-o-transition: opacity 750ms ease;
-	transition: opacity 750ms ease;
-}
+  .text-block {
+    ul {
+      padding-left: 0;
+    }
 
-.who-is-who:hover .pic .close-up {
-	opacity: 0;
+    li {
+      list-style: none;
+    }
+
+    p {
+      font-style: italic;
+      white-space: initial;
+    }
+  }
 }
 
 .practical-info {
-	display:flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .practical-info .city-pic > img {
-	width: 175px;
+  width: 175px;
 }
 
 .practical-info .text-block {
-	text-align: center;
+  text-align: center;
 }
 
 .practical-info .ngo-pic > img {
-	width: 175px;
+  width: 175px;
 }
 
 .practical-info .facebook-event {
-	color: $white;
-	background-color: $facebook;
-	font-size: 10px;
+  color: $white;
+  background-color: $facebook;
+  font-size: 10px;
 
-	padding: 4px 10px;
-	margin-top: 1em;
+  padding: 4px 10px;
+  margin-top: 1em;
 }
 
 .practical-info .facebook-event .fa-facebook {
-	margin-right: 6px;
-	color: $white;
+  margin-right: 6px;
+  color: $white;
 }
 
 .ngo-info {
-	display:flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .ngo-info .ngo-pic > img {
-	width: 200px;
-	margin-right: 1em;
+  width: 200px;
+  margin-right: 1em;
 }
 
 .acht-results {
-	border: 1px solid transparent
+  border: 1px solid transparent;
 }
 
 .acht-results > td {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 .acht-result > td > img {
-	width: 50px;
-	margin-right: 1em;
+  width: 50px;
+  margin-right: 1em;
 }
 
 .inschrijven {
-	text-align: center;
+  text-align: center;
 }
 
 .quiz-sponsor {
-	margin: auto;
-	text-align: center;
-	font-size: 0.8em;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8em;
 
-	padding-top: 5em;
+  padding-top: 5em;
 
-	img {
-		width: 50%;
-	}
+  img {
+    width: 50%;
+  }
 }
 
 .text-block > p {
-	white-space: pre-line;
+  white-space: pre-line;
 }
 
 .text-block > p:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
