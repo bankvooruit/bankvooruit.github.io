@@ -1,0 +1,43 @@
+<head>
+  <!-- Google Analytics, Global Site Tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-106738511-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-106738511-1");
+  </script>
+
+  <!-- basic info -->
+  <title>Bank Vooruit speelt De Code Van De Kaart</title>
+  <link
+    rel="shortcut icon"
+    type="image/ico"
+    href="{{ site.incl-path }}/favicon.ico?v=2"
+  />
+
+  <!-- Do not delete this! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Metadata used for sharing this page -->
+  <meta property="og:site_name" content="Bank Vooruit" />
+  <meta property="og:url" content=" {{site.baseurl}}{{ page.url }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.excerpt }}" />
+  <meta property="og:image" content=" {{site.baseurl}}{{ page.postimage }}" />
+
+  <!-- CSS files -->
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ site.incl-path }}/font-awesome/css/font-awesome.min.css"
+  />
+</head>
