@@ -118,9 +118,11 @@ export default function TopMenu() {
                     />
                   ) : (
                     <a
+                      key={link.label}
                       className="text-gray-700 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base text-sm font-medium"
                       href={link.link}
-                      key={link.label}
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       {link.label}
                     </a>

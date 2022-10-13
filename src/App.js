@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { isArray, map } from "lodash";
+import { flatten, isArray, map } from "lodash";
 
 import { home, links } from "./gegevens/menubalk";
 
@@ -23,21 +23,23 @@ function App() {
           <TopMenu />
           <Routes>
             {links &&
-              map(links, (link) =>
-                isArray(link.link) ? (
-                  map(link.link, (link) => (
+              flatten(
+                map(links, (link) =>
+                  isArray(link.link) ? (
+                    map(link.link, (link) => (
+                      <Route
+                        path={link.link}
+                        element={link.component}
+                        key={link.link}
+                      />
+                    ))
+                  ) : (
                     <Route
                       path={link.link}
                       element={link.component}
                       key={link.link}
                     />
-                  ))
-                ) : (
-                  <Route
-                    path={link.link}
-                    element={link.component}
-                    key={link.link}
-                  />
+                  )
                 )
               )}
             <Route path={"/"} element={home.component} key={home.link} />
