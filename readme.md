@@ -1,15 +1,13 @@
 # Local installation
 
 ```
-bundle install
+npm run start
 ```
-
-_Note: `sudo` might be required_
 
 # Run locally
 
 ```
-bundle exec jekyll serve --baseurl ""
+npm run start
 ```
 
 # Push to this repository
