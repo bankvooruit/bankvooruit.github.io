@@ -27,3 +27,11 @@ You might need to re-register your ssh key to the ssh manager of your computer
 ```
 ssh-add ~/.ssh/id_rsa_...
 ```
+
+# Publish changes
+
+```
+npm run deploy
+```
+
+See https://blog.logrocket.com/deploying-react-apps-github-pages/
