@@ -1,3 +1,7 @@
+# Latest build information
+
+![CI/CD](https://github.com/bankvooruit/bankvooruit.github.io/workflows/Deploy%20Website/badge.svg)
+
 # Local installation
 
 ```
@@ -30,8 +34,7 @@ ssh-add ~/.ssh/id_rsa_...
 
 # Publish changes
 
-```
-npm run deploy
-```
+Publishing happens automatically when pushing to master
 
 See https://blog.logrocket.com/deploying-react-apps-github-pages/
+See https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp
