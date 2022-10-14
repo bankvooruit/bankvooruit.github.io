@@ -5,7 +5,7 @@
   "homepage": "www.theaterbankvooruit.be",
   "scripts": {
     "start": "react-scripts start && style",
-    "build": "npm version patch && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "style": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
