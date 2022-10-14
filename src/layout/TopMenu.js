@@ -19,7 +19,7 @@ export default function TopMenu() {
               <a className="flex-shrink-0" href="/">
                 <img
                   className="h-8 dark:invert"
-                  src={`/afbeeldingen/menubalk/${logo}`}
+                  src={`%PUBLIC_URL%/afbeeldingen/menubalk/${logo}`}
                   alt="Logo van Theater Bank Vooruit"
                 />
               </a>
@@ -63,7 +63,7 @@ export default function TopMenu() {
                       {link.icon_image && (
                         <img
                           className="h-8 dark:invert"
-                          src={`/afbeeldingen/menubalk/${link.icon_image}`}
+                          src={`%PUBLIC_URL%/afbeeldingen/menubalk/${link.icon_image}`}
                           alt={link.label}
                         />
                       )}

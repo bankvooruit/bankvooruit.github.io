@@ -21,7 +21,7 @@ export default function GoedDoel({ goedDoel, voorstellingId }) {
         <div className="mt-8 mb-4 px-16">
           <Link href={goedDoel.website}>
             <img
-              src={`/afbeeldingen/${voorstellingId}/goede-doelen/${goedDoel.foto}`}
+              src={`%PUBLIC_URL%/afbeeldingen/${voorstellingId}/goede-doelen/${goedDoel.foto}`}
               title={`Logo van ${goedDoel.naam}`}
               alt={`Logo van ${goedDoel.naam}`}
               className="max-w-full max-h-32 mx-auto"
