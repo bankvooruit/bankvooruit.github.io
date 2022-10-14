@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { flatten, isArray, map } from "lodash";
 
+import packageJson from "../package.json";
+
 import { home, links } from "./gegevens/menubalk";
 
 import TopMenu from "./layout/TopMenu";
@@ -19,6 +21,7 @@ function App() {
   return (
     <Router>
       <div className="h-100">
+        <div className="hidden">App version: {packageJson.version}</div>
         <div className="grid grid-flow-row auto-rows-max z-20">
           <TopMenu />
           <Routes>
