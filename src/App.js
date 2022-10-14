@@ -15,6 +15,11 @@ function App() {
   } else {
     document.documentElement.classList.remove("dark");
   }
+  const routes = flatten(
+    map(links, (link) =>
+      isArray(link.link) ? map(link.link, (link) => link) : link
+    )
+  );
 
   return (
     <Router>
@@ -22,28 +27,15 @@ function App() {
         <div className="grid grid-flow-row auto-rows-max z-20">
           <TopMenu />
           <Routes>
-            {links &&
-              flatten(
-                map(links, (link) =>
-                  isArray(link.link) ? (
-                    map(link.link, (link) => (
-                      <Route
-                        path={link.link}
-                        element={link.component}
-                        key={link.link}
-                      />
-                    ))
-                  ) : (
-                    <Route
-                      path={link.link}
-                      element={link.component}
-                      key={link.link}
-                    />
-                  )
-                )
-              )}
-            <Route path={"/"} element={home.component} key={home.link} />
+            {map(routes, (route) => (
+              <Route
+                path={route.link}
+                element={route.component}
+                key={route.link}
+              />
+            ))}
           </Routes>
+          <Route path={"/"} element={home.component} key={home.link} />
         </div>
       </div>
     </Router>
