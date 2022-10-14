@@ -96,7 +96,7 @@ export const voorstellingen = {
     },
     waar: {
       gebouw: "GC Den Boomgaard",
-      adres: "GC Den Boomgaard, Antwerpsesteenweg 43, 2520 Broechem",
+      adres: "Antwerpsesteenweg 43, 2520 Broechem",
     },
     goede_doelen: ["Feestvarken"],
   },
