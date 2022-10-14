@@ -34,7 +34,7 @@ export default function BankVooruit() {
                   <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
                     <img
                       alt={`Foto van ${persoon.naam}`}
-                      src={`%PUBLIC_URL%/afbeeldingen/bankvooruit/${persoon.foto}`}
+                      src={`/afbeeldingen/bankvooruit/${persoon.foto}`}
                       className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"
                     />
                   </div>

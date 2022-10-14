@@ -22,7 +22,7 @@ export default function ImageCarousel({ images }) {
     <Slider {...settings}>
       {map(images, (image) => (
         <img
-          src={`%PUBLIC_URL%/${image.foto}`}
+          src={image.foto}
           alt={image.alt}
           key={image.foto}
           className="w-full rounded-lg shadow"

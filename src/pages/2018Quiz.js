@@ -35,7 +35,7 @@ export default function Quiz2018() {
             rel="noreferrer"
           >
             <img
-              src="%PUBLIC_URL%/afbeeldingen/2018-quiz/sponsors/JulesDestrooper.png"
+              src="/afbeeldingen/2018-quiz/sponsors/JulesDestrooper.png"
               alt="Logo van Jules Destrooper"
             />
           </Link>
