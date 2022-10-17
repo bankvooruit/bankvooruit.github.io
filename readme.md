@@ -5,7 +5,7 @@
 # Local installation
 
 ```
-npm run start
+npm install
 ```
 
 # Run locally
@@ -13,6 +13,18 @@ npm run start
 ```
 npm run start
 ```
+
+This will update automatically when you update your code
+
+# Serve the build locally
+
+```
+npm install -g serve
+npm run build
+serve -s build
+```
+
+You need to stop the server and rebuild when you do changes to the code. Some things work when running locally, but fail in a build (e.g. routes). So it is worth testing this before publishing
 
 # Push to this repository
 
