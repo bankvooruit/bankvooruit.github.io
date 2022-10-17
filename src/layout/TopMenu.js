@@ -12,8 +12,8 @@ export default function TopMenu() {
   return (
     <header>
       <nav className="z-20 bg-white dark:bg-gray-800 shadow">
-        <div className="max-w-7xl mx-auto px-8">
-          <div className="flex items-center justify-between h-16">
+        <div className="max-w-7xl mx-auto px-8 py-2">
+          <div className="flex items-center justify-evenly flex-wrap flex-col md:flex-row min-h-16 gap-1">
             <div className=" flex items-center">
               {/* Logo */}
               <a className="flex-shrink-0" href="/">
@@ -107,25 +107,27 @@ export default function TopMenu() {
         {/* Menu on small screen */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
               {links &&
-                map(links, (link) =>
-                  isArray(link.link) ? (
-                    <DropDownMenu
-                      key={link.label}
-                      label={link.label}
-                      items={link.link}
-                    />
-                  ) : (
-                    <Link
-                      className="text-gray-700 text-center dark:text-white hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-smfont-medium"
-                      to={link.link}
-                      key={link.link}
-                    >
-                      {link.label}
-                    </Link>
-                  )
-                )}
+                map(links, (link) => (
+                  <div>
+                    {isArray(link.link) ? (
+                      <DropDownMenu
+                        key={link.label}
+                        label={link.label}
+                        items={link.link}
+                      />
+                    ) : (
+                      <Link
+                        className="text-gray-700 text-center dark:text-white hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-smfont-medium"
+                        to={link.link}
+                        key={link.link}
+                      >
+                        {link.label}
+                      </Link>
+                    )}
+                  </div>
+                ))}
             </div>
           </div>
         )}
