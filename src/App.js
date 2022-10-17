@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { flatten, isArray, map } from "lodash";
 
 import { home, links } from "./gegevens/menubalk";
