@@ -2,7 +2,7 @@ import React from "react";
 import { map, sortBy } from "lodash";
 
 import { TheaterBankVooruit, mensen } from "../gegevens/bankvooruit";
-import { background, backgroundColor } from "../gegevens/menubalk";
+import { logo, background, backgroundColor } from "../gegevens/menubalk";
 
 import BackgroundImage from "../layout/BackgroundImage";
 import PageContent from "../layout/PageContent";
@@ -17,6 +17,11 @@ export default function BankVooruit() {
     >
       <PageContent>
         <div>
+          <img
+            className="pt-4 max-h-96 max-w-96 mx-auto dark:invert"
+            src={`/afbeeldingen/menubalk/${logo}`}
+            alt="Logo van Theater Bank Vooruit"
+          />
           <div className="py-4">
             <TextContainer className="mb-32">
               <p className="text-center text-3xl font-bold text-gray-800 dark:text-white mb-8">
