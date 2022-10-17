@@ -22,7 +22,7 @@ function App() {
   );
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="h-100">
         <div className="grid grid-flow-row auto-rows-max z-20">
           <TopMenu />
