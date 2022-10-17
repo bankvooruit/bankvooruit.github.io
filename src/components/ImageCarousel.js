@@ -15,7 +15,8 @@ export default function ImageCarousel({ images }) {
     adaptiveHeight: true,
     autoplay: true,
     slide: "img",
-    className: "w-96 block mx-auto text-white",
+    className:
+      "w-[250px] sm:w-[350px] md:w-[450px] lg:w-[750px] block mx-auto text-white",
   };
 
   return (
