@@ -10,7 +10,7 @@ export default function Goudje2022() {
       <img
         src={`/afbeeldingen/${projectGegevens.voorstelling_id}/promomateriaal/Maan-donker-trans-Goudje.png`}
         alt="Maan met naald en draad errond"
-        className="pt-4 h-96 w-96 mx-auto"
+        className="pt-4 max-h-96 max-w-96 mx-auto"
       />
       <img
         src={`/afbeeldingen/${projectGegevens.voorstelling_id}/promomateriaal/Website_TitelGoudje_Transparant_cropped.png`}
