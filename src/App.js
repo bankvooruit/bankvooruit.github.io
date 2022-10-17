@@ -20,6 +20,7 @@ function App() {
       isArray(link.link) ? map(link.link, (link) => link) : link
     )
   );
+  routes.push({ link: "/", component: home.component });
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
@@ -35,7 +36,6 @@ function App() {
               />
             ))}
           </Routes>
-          <Route path={"/"} element={home.component} key={home.link} />
         </div>
       </div>
     </Router>

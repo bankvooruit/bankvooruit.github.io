@@ -1,12 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-export default function DropDownMenu({
-  label,
-  icon,
-  withDivider,
-  forceOpen,
-  items,
-}) {
+export default function DropDownMenu({ label, icon, items }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -36,33 +31,23 @@ export default function DropDownMenu({
       </div>
 
       {/* content */}
-      {(forceOpen || isOpen) && (
+      {isOpen && (
         <div className="origin-top-right absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5">
           <div
-            className={`py-1 ${withDivider ? "divide-y divide-gray-100" : ""}`}
+            className={`py-1`}
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="options-menu"
           >
             {items.map((item) => {
               return (
-                <a
-                  key={item.label}
-                  href={item.link}
-                  className={`${
-                    item.icon ? "flex items-center" : "block"
-                  } block px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white dark:hover:bg-gray-600`}
-                  role="menuitem"
+                <Link
+                  className="block px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
+                  to={item.link}
+                  key={item.link}
                 >
-                  {item.icon}
-
-                  <span className="flex flex-col">
-                    <span>{item.label}</span>
-                    {item.desc && (
-                      <span className="text-gray-400 text-xs">{item.desc}</span>
-                    )}
-                  </span>
-                </a>
+                  {item.label}
+                </Link>
               );
             })}
           </div>

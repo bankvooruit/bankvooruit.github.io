@@ -1,7 +1,7 @@
 import BankVooruit from "../pages/BankVooruit";
 import Sponsoring from "../pages/Sponsoring";
 import Goudje2022 from "../pages/2022Goudje";
-import CodeVDKaart from "../pages/2019CodeVDKaart";
+import CodeVDKaart2019 from "../pages/2019CodeVDKaart";
 import Quiz2018 from "../pages/2018Quiz";
 import Acht2017 from "../pages/2017Acht";
 
@@ -27,7 +27,7 @@ export const links = [
       {
         label: "Code van de Kaart (2019)",
         link: "/2019-code-vd-kaart",
-        component: <CodeVDKaart />,
+        component: <CodeVDKaart2019 />,
       },
       { label: "Quiz (2018)", link: "/2018-quiz", component: <Quiz2018 /> },
       { label: "Acht (2017)", link: "/2017-acht", component: <Acht2017 /> },
