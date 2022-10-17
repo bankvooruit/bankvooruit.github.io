@@ -2,6 +2,7 @@
   "name": "theater-bank-vooruit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "www.theaterbankvooruit.be",
   "scripts": {
     "start": "react-scripts start && style",
     "build": "react-scripts build",
