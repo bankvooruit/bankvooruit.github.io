@@ -48,5 +48,8 @@ ssh-add ~/.ssh/id_rsa_...
 
 Publishing happens automatically when pushing to master
 
-See https://blog.logrocket.com/deploying-react-apps-github-pages/
-See https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp
+References:
+
+- https://blog.logrocket.com/deploying-react-apps-github-pages/
+- https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp
+- https://create-react-app.dev/docs/deployment/#github-pages
