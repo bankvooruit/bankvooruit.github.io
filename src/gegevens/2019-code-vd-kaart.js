@@ -76,7 +76,7 @@ export const voorstellingen = {
 export const goede_doelen = {
   Rodeneuzendag: {
     naam: "Rodeneuzendag",
-    foto: "rodeneuzendag.jpg",
+    foto: "Rodeneuzendag.jpg",
     voorstellingen: ["Nijlen"],
   },
   Luierboxproject: {
