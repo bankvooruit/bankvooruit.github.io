@@ -122,6 +122,7 @@ export default function TopMenu() {
                         className="text-gray-700 text-center dark:text-white hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-smfont-medium"
                         to={link.link}
                         key={link.link}
+                        onClick={() => setIsOpen(false)}
                       >
                         {link.label}
                       </Link>
