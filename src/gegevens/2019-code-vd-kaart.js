@@ -34,8 +34,7 @@ export const verhaal = {
     "CVDK(3).JPG",
     "CVDK(4).JPG",
     "TBV1.JPG",
-    "TBV2.JPG",
-    "TBV3.JPG",
+    "TBV2.JPG"
   ],
 };
 
