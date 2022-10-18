@@ -138,8 +138,16 @@ export const goede_doelen = {
     foto: "Olen_OlenTegenKanker_logo.png",
     voorstellingen: ["Olen"],
   },
+  SandersOntbijt: {
+    naam: "Sanders ontbijt (Rondoufonds)",
+    omschrijving:
+      "Het Rondoufonds steunt wetenschappelijk onderzoek naar de ziekte van Duchenne",
+    website: "https://www.rondoufonds.be/",
+    foto: "Olen_rondoufonds_logo.png",
+    voorstellingen: ["Olen"],
+  },
   XanderSuperheld: {
-    naam: "XanderSuperheld",
+    naam: "Xander de Superheld vzw",
     omschrijving:
       "Xander overleed in de zomer van 2022 aan een agressieve hersentumor. Met deze vzw wordt geld ingezameld voor onderzoek zodat in de toekomst superhelden zoals Xander langer heldendaden op deze wereld kunnen verrichten.",
     website: "https://www.facebook.com/xanderdesuperheld/",
