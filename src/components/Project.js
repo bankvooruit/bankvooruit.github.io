@@ -42,6 +42,7 @@ export default function Project({
                   voorstelling={voorstelling}
                   goedeDoelen={goede_doelen}
                   voorstellingId={voorstelling_id}
+                  projectTitel={verhaal.titel}
                 />
               ))}
             </Grid>

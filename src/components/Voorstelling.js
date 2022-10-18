@@ -9,6 +9,7 @@ export default function Voorstelling({
   voorstelling,
   goedeDoelen,
   voorstellingId,
+  projectTitel
 }) {
   const nu = moment();
   const dagVanVoorstelling =
@@ -44,16 +45,16 @@ export default function Voorstelling({
         );
       }
       else if (voorstelling.reservatie_email) {
+        const mailto = `mailto:${voorstelling.reservatie_email}
+        ?subject=Reservatie voorstelling ${projectTitel}
+        &body=Beste,%0D%0A%0D%0AGraag reserveren we de volgende tickets voor de voorstelling ${projectTitel} in ${voorstelling.locatie} op ${voorstelling.wanneer.dag}:%0D%0A_____ volwassenen en _____ kinderen (-12) op naam van ______________________.%0D%0A%0D%0AMet vriendelijke groet`
+
         return (
-          <a
-            type="button"
+          <div
             className="py-2 px-4 my-6 bg-gold hover:bg-gold-700 focus:ring-gold-500 focus:ring-offset-gold-200 text-gray-800 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "
-            href={`mailto:${voorstelling.reservatie_email}`}
-            target="_blank"
-            rel="noreferrer"
           >
-            Reserveer door te mailen naar <a href={`mailto:${voorstelling.reservatie_email}`}>{voorstelling.reservatie_email}</a>
-          </a>
+            Reserveer door te mailen naar <a href={mailto}>{voorstelling.reservatie_email}</a>
+          </div>
         );
       } else {
         return (
