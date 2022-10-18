@@ -1,3 +1,16 @@
+# How to make a simple adjustment to the website?
+
+1. Most textual information that is shown on the website can be found in [src/gegevens](https://github.com/bankvooruit/bankvooruit.github.io/tree/master/src/gegevens). Find the file you need and open it here in github
+1. At the top right, click the little pencil
+1. Make your changes
+1. At the bottom, underneath your file, you can see "Commit changes" with two text fields underneat. In the small one, give some explanaition on what you did (e.g. "Locatie voorstelling Ranst aangepast" = commit message). You can put a longer description in the bigger text field, but that is optional
+1. Click the green button "Commit changes"
+1. At the top of the page, you see a tab with a little play button next to "Actions", click here
+1. You will see the message that you just typed, with an orange spinning icon next to it. Wait untill it is done spinning and turns green. Another orange spinning icon will appear with the text "pages build and deployment". Wait untill it is done spinning and turns green. The new version of the website should now be deployed, you can go check it out
+1. Don't see your changes? Try refreshing. Or wait a little longer
+
+Do you want to make changes to multiple files at once or do you want to upload images? Instead of clicking the pencil icon, try clicking the little arrow next to it and choose "Open in github.dev". Do your changes in the online IDE. Click the "source control" icon on the left, fill in your commit message and click the little check mark above the input field. That should be it, your changes will start deploying. Check the "Actions" tab to follow the progress.
+
 # Latest build information
 
 ![CI/CD](https://github.com/bankvooruit/bankvooruit.github.io/workflows/Deploy%20Website/badge.svg)
