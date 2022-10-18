@@ -42,6 +42,19 @@ export default function Voorstelling({
             Reserveer
           </a>
         );
+      }
+      else if (voorstelling.reservatie_email) {
+        return (
+          <a
+            type="button"
+            className="py-2 px-4 my-6 bg-gold hover:bg-gold-700 focus:ring-gold-500 focus:ring-offset-gold-200 text-gray-800 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "
+            href={`mailto:${voorstelling.reservatie_email}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Reserveer door te mailen naar <a href={`mailto:${voorstelling.reservatie_email}`}>{voorstelling.reservatie_email}</a>
+          </a>
+        );
       } else {
         return (
           <div

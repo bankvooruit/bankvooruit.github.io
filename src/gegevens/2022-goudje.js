@@ -124,6 +124,7 @@ export const voorstellingen = {
       adres: "Kanunnik-Davidlaan 15, 2500 Lier",
     },
     goede_doelen: ["CoopAfrika"],
+    reservatie_email: "tickets@campussintursula.be"
   },
 };
 
