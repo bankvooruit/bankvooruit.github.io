@@ -45,9 +45,7 @@ export default function Voorstelling({
         );
       }
       else if (voorstelling.reservatie_email) {
-        const mailto = `mailto:${voorstelling.reservatie_email}
-        ?subject=Reservatie voorstelling ${projectTitel}
-        &body=Beste,%0D%0A%0D%0AGraag reserveren we de volgende tickets voor de voorstelling ${projectTitel} in ${voorstelling.locatie} op ${voorstelling.wanneer.dag}:%0D%0A_____ volwassenen en _____ kinderen (-12) op naam van ______________________.%0D%0A%0D%0AMet vriendelijke groet`
+        const mailto = `mailto:${voorstelling.reservatie_email}?subject=Reservatie voorstelling ${projectTitel}&body=Beste,%0D%0A%0D%0AGraag reserveren we de volgende tickets voor de voorstelling "${projectTitel}" in ${voorstelling.locatie} op ${voorstelling.wanneer.dag}:%0D%0A_____ volwassenen en _____ kinderen (-12j) op naam van ______________________.%0D%0A%0D%0AMet vriendelijke groet`
 
         return (
           <div
