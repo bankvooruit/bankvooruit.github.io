@@ -111,6 +111,7 @@ export const voorstellingen = {
       gebouw: "Gemeenschapscentrum IJzermael",
       adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     },
+    goede_doelen: ["XanderSuperheld"]
   },
   Lier: {
     locatie: "Lier",
@@ -137,13 +138,13 @@ export const goede_doelen = {
     foto: "Olen_OlenTegenKanker_logo.png",
     voorstellingen: ["Olen"],
   },
-  SandersOntbijt: {
-    naam: "Sanders ontbijt (Rondoufonds)",
+  XanderSuperheld: {
+    naam: "XanderSuperheld",
     omschrijving:
-      "Het Rondoufonds steunt wetenschappelijk onderzoek naar de ziekte van Duchenne",
-    website: "https://www.rondoufonds.be/",
-    foto: "Olen_rondoufonds_logo.png",
-    voorstellingen: ["Olen"],
+      "Xander overleed in de zomer van 2022 aan een agressieve hersentumor. Met deze vzw wordt geld ingezameld voor onderzoek zodat in de toekomst superhelden zoals Xander langer heldendaden op deze wereld kunnen verrichten.",
+    website: "https://www.facebook.com/xanderdesuperheld/",
+    foto: "Hulshout_XanderSuperheld_Logo.jpg",
+    voorstellingen: ["Hulshout"],
   },
   Levensloop: {
     naam: "Levensloop Neteland",
