@@ -18,7 +18,7 @@ export default function BankVooruit() {
       <PageContent>
         <div>
           <img
-            className="pt-4 max-h-96 max-w-96 mx-auto dark:invert"
+            className="pt-4 max-h-96 max-w-96 mx-auto invert"
             src={`/afbeeldingen/menubalk/${logo}`}
             alt="Logo van Theater Bank Vooruit"
           />
