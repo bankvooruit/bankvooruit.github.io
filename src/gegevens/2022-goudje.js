@@ -51,12 +51,12 @@ export const voorstellingen = {
       uren: ["10u30"],
     },
     waar: {
-      gebouw: "Info volgt later",
-      adres: "",
+      gebouw: "Gemeenschapscentrum 't Dorp",
+      adres: "Berlaarsesteenweg 2, 2560 Kessel",
     },
     goede_doelen: ["Amikoj"],
     extra: "Georganiseerd door de Gezinsbond",
-    // reservatie_link: ""
+    reservatie_link: "https://forms.gle/XBhV6XUR46LDjhEh6"
   },
   Grobbendonk: {
     locatie: "Grobbendonk",
@@ -70,7 +70,7 @@ export const voorstellingen = {
       adres: "Vaartkom 6, 2280 Grobbendonk",
     },
     goede_doelen: ["Levensloop"],
-    // reservatie_link: ""
+    reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=10471&event=121305# "
   },
   Olen: {
     locatie: "Olen",
@@ -99,6 +99,7 @@ export const voorstellingen = {
       adres: "Antwerpsesteenweg 43, 2520 Broechem",
     },
     goede_doelen: ["Feestvarken"],
+    reservatie_link: "https://www.ranst.be/bankVooruit"
   },
   Hulshout: {
     locatie: "Hulshout",
@@ -111,7 +112,8 @@ export const voorstellingen = {
       gebouw: "Gemeenschapscentrum IJzermael",
       adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     },
-    goede_doelen: ["XanderSuperheld"]
+    goede_doelen: ["XanderSuperheld"],
+    // reservatie_link: ""
   },
   Lier: {
     locatie: "Lier",
