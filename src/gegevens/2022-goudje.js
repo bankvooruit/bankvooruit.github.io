@@ -113,7 +113,7 @@ export const voorstellingen = {
       adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     },
     goede_doelen: ["XanderSuperheld"],
-    // reservatie_link: ""
+     reservatie_link: "https://www.ticketgang.be/tickets/hulshout#"
   },
   Lier: {
     locatie: "Lier",
