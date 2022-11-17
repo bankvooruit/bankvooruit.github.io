@@ -41,7 +41,7 @@ export const voorstellingen = {
       adres: "Nieuwstraat 13, 2290 Vorselaar",
     },
     goede_doelen: ["Levensloop"],
-    // reservatie_link: ""
+    reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=419937&event=122235"
   },
   Nijlen: {
     locatie: "Nijlen",
