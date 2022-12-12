@@ -34,7 +34,7 @@ export const voorstellingen = {
     wanneer: {
       date: "2022-12-17",
       dag: "Zaterdag 17 december 2022",
-      uren: ["10u30", "13u30"],
+      uren: ["10u30"],
     },
     waar: {
       gebouw: "LDC Sprankel",
