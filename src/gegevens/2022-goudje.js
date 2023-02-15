@@ -136,7 +136,7 @@ export const voorstellingen = {
     //   adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     // },
     goede_doelen: ["XanderSuperheld"],
-    verzamelde_centjes: ["Bedrag nog niet bekend"],
+    verzamelde_centjes: ["€1290,65"],
     reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
   },
   Lier: {
