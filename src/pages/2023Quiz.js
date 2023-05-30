@@ -27,14 +27,14 @@ export default function Quiz2023() {
           </Link>
           <a
             type="button"
-            className="py-2 px-4 my-6 bg-gold hover:bg-gold-700 focus:ring-gold-500 focus:ring-offset-gold-200 text-gray-800 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "
+            className="text-xl py-2 px-4 my-6 bg-gold hover:bg-gold-700 focus:ring-gold-500 focus:ring-offset-gold-200 text-gray-800 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "
             href={linkToForm}
             target="_blank"
             rel="noreferrer"
           >
             Schrijf je in!
           </a>
-          <p className="text-xl font-normal text-gray-500 dark:text-gray-400 py-2">
+          <p className="text-m font-normal text-gray-500 dark:text-gray-400 py-2">
             <table className="table-auto">
               <tbody>
                 <tr>
@@ -84,8 +84,9 @@ export default function Quiz2023() {
                     </p>
                     <p>
                       Je inschrijving is pas geldig na ontvangst van het
-                      inschrijvingsgeld op rekeningnummer: BE93 9734 1677 3567
-                      met de vermelding: "ploegnaam + TBV Quiz"
+                      inschrijvingsgeld op rekeningnummer:
+                      BE93&nbsp;9734&nbsp;1677&nbsp;3567 met de vermelding:
+                      "ploegnaam + TBV Quiz"
                     </p>
                     <p>
                       Indien u zich wenst uit te schrijven, stuurt u een mail
