@@ -89,7 +89,7 @@ export const voorstellingen = {
     //   adres: "Vaartkom 6, 2280 Grobbendonk",
     // },
     goede_doelen: ["Levensloop"],
-    verzamelde_centjes: ["Bedrag nog niet bekend"],
+    verzamelde_centjes: ["€513,40"],
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=10471&event=121305# ",
   },
