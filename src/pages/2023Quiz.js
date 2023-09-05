@@ -97,6 +97,22 @@ export default function Quiz2023() {
               </tbody>
             </table>
           </p>
+          <div className="mt-16">
+            <p className="text-center text-xl font-normal text-gray-500 dark:text-gray-200 mb-8">
+              Met dank aan onze lekkere sponsor: Jules Destrooper
+            </p>
+            <Link
+              target="_blank"
+              href="https://www.jules-destrooper.com/nl"
+              title="Onze sponsor: Jules Destrooper"
+              rel="noreferrer"
+            >
+              <img
+                src="/afbeeldingen/2023-quiz/sponsors/JulesDestrooper.png"
+                alt="Logo van Jules Destrooper"
+              />
+            </Link>
+          </div>
         </TextContainer>
       </PageContent>
     </BackgroundImage>
