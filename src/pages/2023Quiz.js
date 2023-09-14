@@ -97,7 +97,7 @@ export default function Quiz2023() {
               </tbody>
             </table>
           </p>
-          <div className="mt-16">
+          <div className="mt-16 container mx-auto">
             <p className="text-center text-xl font-normal text-gray-500 dark:text-gray-200 mb-8">
               Met dank aan onze lekkere sponsor: Jules Destrooper
             </p>
@@ -110,6 +110,25 @@ export default function Quiz2023() {
               <img
                 src="/afbeeldingen/2023-quiz/sponsors/JulesDestrooper.png"
                 alt="Logo van Jules Destrooper"
+                className="mx-auto"
+              />
+            </Link>
+          </div>
+          
+          <div className="mt-16 container mx-auto">
+            <p className="text-center text-xl font-normal text-gray-500 dark:text-gray-200 mb-8">
+              Met dank aan onze handige sponsor: H&nbsp;en&nbsp;K&nbsp;dakwerken
+            </p>
+            <Link
+              target="_blank"
+              href="https://dakwerkenh-en-k.be/"
+              title="Onze sponsor: H en K dakwerken"
+              rel="noreferrer"
+            >
+              <img
+                src="/afbeeldingen/2023-quiz/sponsors/henk.jpg"
+                alt="Logo van H en K dakwerken"
+                className="max-w-md mx-auto"
               />
             </Link>
           </div>
