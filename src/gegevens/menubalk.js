@@ -61,9 +61,4 @@ export const icon_links = [
     link: "https://uitmetvlieg.be/",
     icon_image: "vlieg.png",
   },
-  {
-    label: "Opendoek",
-    link: "https://opendoek.be/",
-    icon_image: "opendoek.png",
-  },
 ];
