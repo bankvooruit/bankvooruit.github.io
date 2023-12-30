@@ -7,6 +7,10 @@ import Grid from "../layout/Grid";
 import ImageCarousel from "../components/ImageCarousel";
 import ProjectIntro from "../components/ProjectIntro";
 import Voorstelling from "../components/Voorstelling";
+import {
+  background as fallbackBackground,
+  backgroundColor as fallbackBackgroundColor,
+} from "../gegevens/menubalk.js";
 
 export default function Project({
   voorstelling_id,
@@ -19,8 +23,12 @@ export default function Project({
 }) {
   return (
     <BackgroundImage
-      image={`/afbeeldingen/${voorstelling_id}/${background}`}
-      color={backgroundColor}
+      image={
+        background
+          ? `/afbeeldingen/${voorstelling_id}/${background}`
+          : `/afbeeldingen/${fallbackBackground}`
+      }
+      color={backgroundColor || fallbackBackgroundColor}
     >
       <PageContent>
         <div>

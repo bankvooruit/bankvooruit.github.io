@@ -9,7 +9,7 @@ export default function Voorstelling({
   voorstelling,
   goedeDoelen,
   voorstellingId,
-  projectTitel
+  projectTitel,
 }) {
   const nu = moment();
   const dagVanVoorstelling =
@@ -43,15 +43,13 @@ export default function Voorstelling({
             Reserveer
           </a>
         );
-      }
-      else if (voorstelling.reservatie_email) {
-        const mailto = `mailto:${voorstelling.reservatie_email}?subject=Reservatie voorstelling ${projectTitel}&body=Beste,%0D%0A%0D%0AGraag reserveren we de volgende tickets voor de voorstelling "${projectTitel}" in ${voorstelling.locatie} op ${voorstelling.wanneer.dag}:%0D%0A_____ volwassenen en _____ kinderen (-12j) op naam van ______________________.%0D%0A%0D%0AMet vriendelijke groet`
+      } else if (voorstelling.reservatie_email) {
+        const mailto = `mailto:${voorstelling.reservatie_email}?subject=Reservatie voorstelling ${projectTitel}&body=Beste,%0D%0A%0D%0AGraag reserveren we de volgende tickets voor de voorstelling "${projectTitel}" in ${voorstelling.locatie} op ${voorstelling.wanneer.dag}:%0D%0A_____ volwassenen en _____ kinderen (-12j) op naam van ______________________.%0D%0A%0D%0AMet vriendelijke groet`;
 
         return (
-          <div
-            className="py-2 px-4 my-6 bg-gold hover:bg-gold-700 focus:ring-gold-500 focus:ring-offset-gold-200 text-gray-800 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "
-          >
-            Reserveer door te mailen naar <a href={mailto}>{voorstelling.reservatie_email}</a>
+          <div className="py-2 px-4 my-6 bg-gold hover:bg-gold-700 focus:ring-gold-500 focus:ring-offset-gold-200 text-gray-800 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg ">
+            Reserveer door te mailen naar{" "}
+            <a href={mailto}>{voorstelling.reservatie_email}</a>
           </div>
         );
       } else {
@@ -77,7 +75,7 @@ export default function Voorstelling({
         <p className="text-xl text-gray-500 dark:text-gray-200 py-4 font-light">
           {voorstelling.wanneer.dag}
           <br />
-          {voorstelling.wanneer.uren.join(" of ")}
+          {voorstelling.wanneer.uren && voorstelling.wanneer.uren?.join(" of ")}
         </p>
       )}
 
