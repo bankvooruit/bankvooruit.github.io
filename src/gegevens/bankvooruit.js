@@ -59,7 +59,7 @@ export const mensen = {
     woonplaats: "Deurne",
     beroep: "HR consultant",
     theaterconnecties:
-      "Oud-lid bij improtheater Preparee en lid bij improtheater Fnørk",
+      "Oud-lid bij improtheater Preparee, lid bij improtheater Fnørk, speelt bij KT Streven in Mortsel",
     levensmotto: "Het leven is een lange rij veranderingen",
     foto: "Pieter.JPG",
   },
@@ -83,7 +83,7 @@ export const mensen = {
   Katrien: {
     naam: "Katrien Debois",
     woonplaats: "Antwerpen",
-    beroep: "Afgestudeerd in Theater- en filmwetenschappen",
+    beroep: "Coördinator Dag van de Dans",
     theaterconnecties:
       "Volgde muziek, dans en woordkunst aan MuWoDa Heist-op-den-berg, lid van Heist Kamer Toneel (HKT) en het Kraakcollectief",
     levensmotto: "If you can dream it, you can do it",
