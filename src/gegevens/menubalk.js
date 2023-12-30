@@ -1,5 +1,6 @@
 import BankVooruit from "../pages/BankVooruit";
 import Sponsoring from "../pages/Sponsoring";
+import Roloc2024 from "../pages/2024Roloc";
 import Quiz2023 from "../pages/2023Quiz";
 import Goudje2022 from "../pages/2022Goudje";
 import CodeVDKaart2019 from "../pages/2019CodeVDKaart";
@@ -16,11 +17,16 @@ export const links = [
     link: "/bankvooruit",
     component: <BankVooruit />,
   },
-  { label: "Quiz", link: "/2023-quiz", component: <Quiz2023 /> },
+  {
+    label: "De legende van Roloc",
+    link: "/2024-roloc",
+    component: <Roloc2024 />,
+  },
   { label: "Sponsoring", link: "/sponsoring", component: <Sponsoring /> },
   {
     label: "Om nooit te vergeten",
     link: [
+      { label: "Quiz (2023)", link: "/2023-quiz", component: <Quiz2023 /> },
       {
         label: "Goudje en de heldere maan (2022)",
         link: "/2022-goudje",
