@@ -34,8 +34,12 @@ export const verhaal = {
   ],
   promo_beelden: [
     {
-      beeld: "Omslagfoto Legende van Roloc.png",
+      beeld: "titel_transparant.png",
       omschrijving: "De legende van Roloc",
+    },
+    {
+      beeld: "boek_transparant.png",
+      omschrijving: "Oplichtend boek",
     },
   ],
   sfeerbeelden: [],
