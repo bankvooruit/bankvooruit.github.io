@@ -32,11 +32,12 @@ export const verhaal = {
       value: "Dominique Maerten",
     },
   ],
-  promoheader: {
-    beeld: "Omslagfoto Legende van Roloc.png",
-    beeldOmschrijving: "Oplichtend boek",
-    //titel: "",
-  },
+  promo_beelden: [
+    {
+      beeld: "Omslagfoto Legende van Roloc.png",
+      omschrijving: "De legende van Roloc",
+    },
+  ],
   sfeerbeelden: [],
 };
 

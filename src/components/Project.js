@@ -33,21 +33,16 @@ export default function Project({
       <PageContent>
         <div>
           {children}
-          {verhaal.promoheader && (
-            <>
-              <img
-                src={`/afbeeldingen/${voorstelling_id}/promomateriaal/${verhaal.promoheader.beeld}`}
-                alt={verhaal.promoheader.beeldOmschrijving}
-                className="pt-4 max-h-96 max-w-96 mx-auto"
-              />
-              {verhaal.promoheader.titel && (
+          {verhaal.promo_beelden && (
+            <div className="mb-32">
+              {verhaal.promo_beelden.map((promo) => (
                 <img
-                  src={`/afbeeldingen/${voorstelling_id}/promomateriaal/${verhaal.promoheader.titel}`}
-                  alt={verhaal.titel}
-                  className="pt-4 w-full w-full mx-auto md:w-3/4 mb-32"
+                  src={`/afbeeldingen/${voorstelling_id}/promomateriaal/${promo.beeld}`}
+                  alt={promo.beeldOmschrijving}
+                  className="pt-4 max-h-96 max-w-96 mx-auto"
                 />
-              )}
-            </>
+              ))}
+            </div>
           )}
           {verhaal.sfeerbeelden && (
             <ImageCarousel

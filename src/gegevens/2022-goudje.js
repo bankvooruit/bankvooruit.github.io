@@ -26,11 +26,16 @@ export const verhaal = {
       value: "Toon De Ceulaer",
     },
   ],
-  // promoheader: {
-  //   beeld: "Maan-donker-trans-Goudje.png",
-  //   beeldOmschrijving: "Maan met naald en draad errond",
-  //   titel: "Website_TitelGoudje_Transparant_cropped.png",
-  // },
+  // promo_beelden: [
+  //   {
+  //     beeld: "Maan-donker-trans-Goudje.png",
+  //     omschrijving: "Maan met naald en draad errond",
+  //   },
+  //   {
+  //     beeld: "Website_TitelGoudje_Transparant_cropped.png",
+  //     omschrijving: "Goudje en de heldere maan",
+  //   },
+  // ],
   sfeerbeelden: [
     "goudje01.jpeg",
     "goudje02.jpeg",
