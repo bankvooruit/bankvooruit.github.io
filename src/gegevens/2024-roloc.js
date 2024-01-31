@@ -46,18 +46,34 @@ export const verhaal = {
 };
 
 export const voorstellingen = {
+   Herenthout: {
+    locatie: "Herenthout",
+    wanneer: {
+      date: "2024-03-17",
+      dag: "Zondag 17 maart 2024",
+      uren: ["10u00"],
+    },
+    waar: {
+      gebouw: "Zaal Lux",
+      adres: "Markt 23, 2270 Herenthout",
+    },
+    goede_doelen: ["KruimelKrachtig"],
+    //verzamelde_centjes: ["€435,80", "€435,80"],
+    extra: "Deze voorstelling is een try-out",
+    // reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
+  },
   Vorselaar: {
     locatie: "Vorselaar",
     wanneer: {
       date: "2024-03-30",
       dag: "Zaterdag 30 maart 2024",
-      // uren: ["10u30"],
+      uren: ["10u30"],
     },
     waar: {
-      // gebouw: "LDC Sprankel",
-      // adres: "Nieuwstraat 13, 2290 Vorselaar",
+      gebouw: "De Kampus",
+      adres: "Cardijnlaan 8, 2290 Vorselaar",
     },
-    //goede_doelen: ["Levensloop"],
+    goede_doelen: ["vzwOpWeg"],
     // verzamelde_centjes: ["€591,55"],
     // reservatie_link:
     //  "https://be.ticketgang.eu/orgFrameSaleNew.php?org=419937&event=122235",
@@ -67,15 +83,14 @@ export const voorstellingen = {
     wanneer: {
       date: "2024-04-02",
       dag: "Dinsdag 2 april 2024",
-      // uren: ["10u30"],
+      uren: ["10u30"],
     },
     waar: {
       gebouw: "Theaterzaal Het Vierde Oor",
       adres: "Domein Teunenberg, 2250 Olen",
     },
-    //goede_doelen: ["Amikoj"],
+    goede_doelen: ["Feestvarken"],
     //verzamelde_centjes: ["€674,00"],
-    //extra: "Georganiseerd door de Gezinsbond",
     //reservatie_link: "https://forms.gle/XBhV6XUR46LDjhEh6",
   },
   Hulshout: {
@@ -83,13 +98,13 @@ export const voorstellingen = {
     wanneer: {
       date: "2024-04-03",
       dag: "Woensdag 3 april 2024",
-      // uren: ["10u30"],
+      uren: ["10u30"],
     },
     waar: {
       gebouw: "Gemeenschapscentrum IJzermael",
       adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     },
-    //goede_doelen: ["XanderSuperheld"],
+    goede_doelen: ["Winterbar De Schrans"],
     //verzamelde_centjes: ["€1290,65"],
     //reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
   },
@@ -98,7 +113,7 @@ export const voorstellingen = {
     wanneer: {
       date: "2024-04-04",
       dag: "Donderdag 4 april 2024",
-      // uren: ["10u30"],
+      uren: ["10u30"],
     },
     waar: {
       gebouw: "Volle Vaart",
@@ -114,7 +129,7 @@ export const voorstellingen = {
     wanneer: {
       date: "2024-04-10",
       dag: "Woensdag 10 april 2024",
-      // uren: ["10u30"],
+      uren: ["14u00"],
     },
     waar: {
       gebouw: "Gemeenschapscentrum 't Dorp",
@@ -122,15 +137,15 @@ export const voorstellingen = {
     },
     goede_doelen: ["Levensloop"],
     //verzamelde_centjes: ["€435,80", "€435,80"],
-    //reservatie_link:
-    //  "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=120984#",
+    extra: "Georganiseerd door de Gezinsbond",
+    reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
   },
   Ranst: {
     locatie: "Ranst",
     wanneer: {
       date: "2024-04-11",
       dag: "Donderdag 11 april 2024",
-      // uren: ["10u30"],
+      uren: ["10u30"],
     },
     waar: {
       gebouw: "GC Den Boomgaard",
@@ -143,13 +158,33 @@ export const voorstellingen = {
 };
 
 export const goede_doelen = {
-  Vonk: {
-    naam: "Vonk",
-    omschrijving:
-      "Vonk is een groeiplek in Boechout voor jongeren tussen 15 en 23 jaar met een psychische kwetsbaarheid.",
-    website: "https://www.vonkplek.be ",
-    //foto: "Vonk.png",
-    voorstellingen: ["Ranst"],
+  KruimelKrachtig: {
+    naam: "Werkgroep Kruimel Krachtig",
+    //omschrijving: "Eén-op-éénbegeleiding van personen met een beperking.",
+    //website: "https://www.vzwopweg.be",
+    //foto: "vzwOpWeg.png",
+    voorstellingen: ["Herenthout"],
+  },
+  vzwOpWeg: {
+    naam: "vzw Op Weg",
+    omschrijving: "Eén-op-éénbegeleiding van personen met een beperking.",
+    website: "https://www.vzwopweg.be",
+    //foto: "vzwOpWeg.png",
+    voorstellingen: ["Vorselaar"],
+  },
+  feestvarken: {
+    naam: "Feestvarken vzw",
+    omschrijving: "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
+    website: "https://feestvarkenvzw.be/",
+    //foto: "feestvarken.png",
+    voorstellingen: ["Olen"],
+  },
+  WinterbarDeSchrans: {
+    naam: "Winterbar De Schrans",
+    //omschrijving: "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
+    //website: "https://feestvarkenvzw.be/",
+    //foto: "feestvarken.png",
+    voorstellingen: ["Hulshout"],
   },
   Levensloop: {
     naam: "Levensloop Neteland",
@@ -158,5 +193,13 @@ export const goede_doelen = {
     //  "https://www.levensloop.be/relays/neteland-vorselaar-grobbendonk-2022 ",
     foto: "Levensloop_Logo.jpg",
     voorstellingen: ["Nijlen", "Grobbendonk"],
+  },
+    Vonk: {
+    naam: "Vonk",
+    omschrijving:
+      "Vonk is een groeiplek in Boechout voor jongeren tussen 15 en 23 jaar met een psychische kwetsbaarheid.",
+    website: "https://www.vonkplek.be ",
+    //foto: "Vonk.png",
+    voorstellingen: ["Ranst"],
   },
 };
