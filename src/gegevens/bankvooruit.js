@@ -67,13 +67,13 @@ export const mensen = {
     naam: "Stijn Neefs",
     woonplaats: "Hulshout",
     beroep: "Leerkracht secundair onderwijs",
-    theaterconnecties: "Regie in Heilig-Hartcollege in Heist-op-den-Berg",
-    levensmotto: "Opgeven kan morgen ook nog",
+    theaterconnecties: "Regie in Heilig-Hartcollege in Heist-op-den-Berg en auteur/regisseur bij vzw Zomerspoor in Herentals",
+    levensmotto: "Paden ontstaan door ze te bewandelen",
     foto: "Stijn.JPG",
   },
   Toon: {
     naam: "Toon De Ceulaer",
-    woonplaats: "Etterbeek",
+    woonplaats: "Genval",
     beroep: "Software consultant",
     theaterconnecties:
       "Pianobegeleiding bij 'De Toverlantaarn' en 'Is Wit Wit?' van de stedelijke academie voor muziek en woord Herentals",
