@@ -104,7 +104,7 @@ export const voorstellingen = {
       gebouw: "Gemeenschapscentrum IJzermael",
       adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     },
-    goede_doelen: ["Winterbar De Schrans"],
+    goede_doelen: ["WinterbarDeSchrans"],
     //verzamelde_centjes: ["€1290,65"],
     //reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
   },
@@ -172,7 +172,7 @@ export const goede_doelen = {
     //foto: "vzwOpWeg.png",
     voorstellingen: ["Vorselaar"],
   },
-  feestvarken: {
+  Feestvarken: {
     naam: "Feestvarken vzw",
     omschrijving: "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
     website: "https://feestvarkenvzw.be/",
@@ -180,8 +180,8 @@ export const goede_doelen = {
     voorstellingen: ["Olen"],
   },
   WinterbarDeSchrans: {
-    naam: "Winterbar De Schrans",
-    //omschrijving: "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
+    naam: "Winterbar De Schrans - Kom op tegen Kanker",
+    omschrijving: "Deze lokale vereniging zamelt centen in voor de strijd tegen kanker.",
     //website: "https://feestvarkenvzw.be/",
     //foto: "feestvarken.png",
     voorstellingen: ["Hulshout"],
@@ -194,7 +194,7 @@ export const goede_doelen = {
     foto: "Levensloop_Logo.jpg",
     voorstellingen: ["Nijlen", "Grobbendonk"],
   },
-    Vonk: {
+  Vonk: {
     naam: "Vonk",
     omschrijving:
       "Vonk is een groeiplek in Boechout voor jongeren tussen 15 en 23 jaar met een psychische kwetsbaarheid.",
