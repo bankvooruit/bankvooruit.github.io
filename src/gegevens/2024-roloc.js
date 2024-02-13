@@ -91,7 +91,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["Feestvarken"],
     //verzamelde_centjes: ["€674,00"],
-    reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
+   // reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
   },
   Hulshout: {
     locatie: "Hulshout",
@@ -121,7 +121,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["Levensloop"],
     //verzamelde_centjes: ["€513,40"],
-    reservatie_link:"https://www.grobbendonk.be/kindertheater",
+    //reservatie_link:"https://www.grobbendonk.be/kindertheater",
   },
   Nijlen: {
     locatie: "Nijlen",
