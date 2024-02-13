@@ -121,7 +121,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["Levensloop"],
     //verzamelde_centjes: ["€513,40"],
-    reservatie_link:"https://www.grobbendonk.be/theater-bank-vooruit",
+    reservatie_link:"https://www.grobbendonk.be/kindertheater",
   },
   Nijlen: {
     locatie: "Nijlen",
@@ -152,7 +152,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["Vonk"],
     //verzamelde_centjes: ["€900,00"],
-    //reservatie_link: "https://www.ranst.be/bankVooruit",
+    reservatie_link: "https://www.ranst.be/theaterbankvooruit",
   },
 };
 
