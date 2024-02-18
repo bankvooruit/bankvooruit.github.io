@@ -75,8 +75,8 @@ export const voorstellingen = {
     },
     goede_doelen: ["vzwOpWeg"],
     // verzamelde_centjes: ["€591,55"],
-    // reservatie_link:
-    //  "https://be.ticketgang.eu/orgFrameSaleNew.php?org=419937&event=122235",
+    reservatie_link:
+    "https://vorselaar.be/bankvooruit/",
   },
   Olen: {
     locatie: "Olen",
@@ -106,7 +106,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["WinterbarDeSchrans"],
     //verzamelde_centjes: ["€1290,65"],
-    //reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
+    reservatie_link: "https://hulshout.ticketgang.eu/",
   },
   Grobbendonk: {
     locatie: "Grobbendonk",
