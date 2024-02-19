@@ -106,7 +106,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["WinterbarDeSchrans"],
     //verzamelde_centjes: ["€1290,65"],
-    reservatie_link: "https://hulshout.ticketgang.eu/",
+    reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
   },
   Grobbendonk: {
     locatie: "Grobbendonk",
