@@ -60,7 +60,7 @@ export const voorstellingen = {
     goede_doelen: ["KruimelKrachtig"],
     //verzamelde_centjes: ["€435,80", "€435,80"],
     extra: "Deze voorstelling is een try-out",
-    // reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
+    reservatie_link: "https://www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
   },
   Vorselaar: {
     locatie: "Vorselaar",
@@ -121,7 +121,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["Levensloop"],
     //verzamelde_centjes: ["€513,40"],
-    //reservatie_link:"https://www.grobbendonk.be/kindertheater",
+    reservatie_link:"https://www.grobbendonk.be/kindertheater",
   },
   Nijlen: {
     locatie: "Nijlen",
