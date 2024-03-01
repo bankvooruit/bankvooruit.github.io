@@ -51,7 +51,7 @@ export const voorstellingen = {
     wanneer: {
       date: "2024-03-17",
       dag: "Zondag 17 maart 2024",
-      uren: ["10u00"],
+      uren: ["10u30"],
     },
     waar: {
       gebouw: "Zaal Lux",
