@@ -91,7 +91,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["Feestvarken"],
     //verzamelde_centjes: ["€674,00"],
-   // reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
+    reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
   },
   Hulshout: {
     locatie: "Hulshout",
