@@ -38,8 +38,9 @@ export default function Project({
               {verhaal.promo_beelden.map((promo) => (
                 <img
                   src={`/afbeeldingen/${voorstelling_id}/promomateriaal/${promo.beeld}`}
-                  alt={promo.beeldOmschrijving}
+                  alt={promo.omschrijving}
                   className="pt-4 max-h-96 max-w-96 mx-auto"
+                  key={promo.beeld}
                 />
               ))}
             </div>

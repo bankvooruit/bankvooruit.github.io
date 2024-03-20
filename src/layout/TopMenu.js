@@ -59,7 +59,6 @@ export default function TopMenu() {
                       href={link.link}
                       className="p-1 rounded-full text-gray-400 focus:outline-none hover:text-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                     >
-                      <span className="sr-only">{link.label}</span>
                       {link.icon_image && (
                         <img
                           className="h-8 dark:invert"
@@ -88,6 +87,7 @@ export default function TopMenu() {
               <button
                 className="text-gray-800 dark:text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
                 onClick={() => setIsOpen(!isOpen)}
+                aria-label="Menu"
               >
                 <svg
                   width="20"

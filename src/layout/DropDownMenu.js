@@ -13,6 +13,7 @@ export default function DropDownMenu({ label, icon, items }) {
           onClick={() => setIsOpen(!isOpen)}
           className="flex items-center justify-center w-full rounded-md px-4 py-2 md:text-sm font-medium text-gray-700 dark:text-white hover:text-gray-800 dark:hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-500"
           id="options-menu"
+          aria-label={label}
         >
           {label}
 

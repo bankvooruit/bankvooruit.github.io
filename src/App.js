@@ -20,7 +20,7 @@ function App() {
       isArray(link.link) ? map(link.link, (link) => link) : link
     )
   );
-  routes.push({ link: "/", component: home.component });
+  routes.push({ link: "/", label: "Home", component: home.component });
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
