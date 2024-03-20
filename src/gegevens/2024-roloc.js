@@ -46,7 +46,7 @@ export const verhaal = {
 };
 
 export const voorstellingen = {
-   Herenthout: {
+  Herenthout: {
     locatie: "Herenthout",
     wanneer: {
       date: "2024-03-17",
@@ -60,7 +60,8 @@ export const voorstellingen = {
     goede_doelen: ["KruimelKrachtig"],
     //verzamelde_centjes: ["€435,80", "€435,80"],
     extra: "Deze voorstelling is een try-out",
-    reservatie_link: "https://www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
+    reservatie_link:
+      "https://www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
   },
   Vorselaar: {
     locatie: "Vorselaar",
@@ -75,8 +76,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["vzwOpWeg"],
     // verzamelde_centjes: ["€591,55"],
-    reservatie_link:
-    "https://vorselaar.be/bankvooruit/",
+    reservatie_link: "https://vorselaar.be/bankvooruit/",
   },
   Olen: {
     locatie: "Olen",
@@ -91,7 +91,8 @@ export const voorstellingen = {
     },
     goede_doelen: ["Feestvarken"],
     //verzamelde_centjes: ["€674,00"],
-    reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
+    reservatie_link:
+      "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
   },
   Hulshout: {
     locatie: "Hulshout",
@@ -121,7 +122,7 @@ export const voorstellingen = {
     },
     goede_doelen: ["Levensloop"],
     //verzamelde_centjes: ["€513,40"],
-    reservatie_link:"https://www.grobbendonk.be/kindertheater",
+    reservatie_link: "https://www.grobbendonk.be/kindertheater",
   },
   Nijlen: {
     locatie: "Nijlen",
@@ -137,7 +138,8 @@ export const voorstellingen = {
     goede_doelen: ["Levensloop"],
     //verzamelde_centjes: ["€435,80", "€435,80"],
     extra: "Georganiseerd door de Gezinsbond",
-    reservatie_link: "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
+    reservatie_link:
+      "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
   },
   Ranst: {
     locatie: "Ranst",
@@ -173,14 +175,16 @@ export const goede_doelen = {
   },
   Feestvarken: {
     naam: "Feestvarken vzw",
-    omschrijving: "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
+    omschrijving:
+      "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
     website: "https://feestvarkenvzw.be/",
     //foto: "feestvarken.png",
     voorstellingen: ["Olen"],
   },
   WinterbarDeSchrans: {
     naam: "Winterbar De Schrans - Kom op tegen Kanker",
-    omschrijving: "Deze lokale vereniging zamelt centen in voor de strijd tegen kanker.",
+    omschrijving:
+      "Deze lokale vereniging zamelt centen in voor de strijd tegen kanker.",
     //website: "https://feestvarkenvzw.be/",
     //foto: "feestvarken.png",
     voorstellingen: ["Hulshout"],
