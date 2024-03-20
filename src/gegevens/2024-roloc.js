@@ -62,6 +62,7 @@ export const voorstellingen = {
     extra: "Deze voorstelling is een try-out",
     reservatie_link:
       "https://www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
+    //uitverkocht: true,
   },
   Vorselaar: {
     locatie: "Vorselaar",
@@ -77,6 +78,7 @@ export const voorstellingen = {
     goede_doelen: ["vzwOpWeg"],
     // verzamelde_centjes: ["€591,55"],
     reservatie_link: "https://vorselaar.be/bankvooruit/",
+    uitverkocht: true,
   },
   Olen: {
     locatie: "Olen",
@@ -93,6 +95,7 @@ export const voorstellingen = {
     //verzamelde_centjes: ["€674,00"],
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
+    //uitverkocht: true,
   },
   Hulshout: {
     locatie: "Hulshout",
@@ -108,6 +111,7 @@ export const voorstellingen = {
     goede_doelen: ["WinterbarDeSchrans"],
     //verzamelde_centjes: ["€1290,65"],
     reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
+    //uitverkocht: true,
   },
   Grobbendonk: {
     locatie: "Grobbendonk",
@@ -123,6 +127,7 @@ export const voorstellingen = {
     goede_doelen: ["Levensloop"],
     //verzamelde_centjes: ["€513,40"],
     reservatie_link: "https://www.grobbendonk.be/kindertheater",
+    //uitverkocht: true,
   },
   Nijlen: {
     locatie: "Nijlen",
@@ -140,6 +145,7 @@ export const voorstellingen = {
     extra: "Georganiseerd door de Gezinsbond",
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
+    //uitverkocht: true,
   },
   Ranst: {
     locatie: "Ranst",
@@ -155,6 +161,7 @@ export const voorstellingen = {
     goede_doelen: ["Vonk"],
     //verzamelde_centjes: ["€900,00"],
     reservatie_link: "https://www.ranst.be/theaterbankvooruit",
+    //uitverkocht: true,
   },
 };
 

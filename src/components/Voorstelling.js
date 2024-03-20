@@ -30,6 +30,15 @@ export default function Voorstelling({
       } else {
         return;
       }
+    } else if (voorstelling.uitverkocht) {
+      return (
+        <div
+          type="button"
+          className="py-2 px-4 my-6 border border-gold hover:border-gold-700 text-gray-800 dark:text-gold w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md rounded-lg "
+        >
+          Uitverkocht
+        </div>
+      );
     } else {
       if (voorstelling.reservatie_link) {
         return (
