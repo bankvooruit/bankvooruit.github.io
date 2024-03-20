@@ -175,7 +175,7 @@ export const goede_doelen = {
   vzwOpWeg: {
     naam: "vzw Op Weg",
     omschrijving: "Eén-op-éénbegeleiding van personen met een beperking.",
-    website: "https:// www.vzwopweg.be",
+    website: "https://www.vzwopweg.be",
     // foto: "vzwOpWeg.png",
     voorstellingen: ["Vorselaar"], // verwijs naar de "keys" van de voorstellingen
   },
@@ -183,7 +183,7 @@ export const goede_doelen = {
     naam: "Feestvarken vzw",
     omschrijving:
       "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
-    website: "https:// feestvarkenvzw.be/",
+    website: "https://feestvarkenvzw.be/",
     // foto: "feestvarken.png",
     voorstellingen: ["Olen"], // verwijs naar de "keys" van de voorstellingen
   },
@@ -206,7 +206,7 @@ export const goede_doelen = {
     naam: "Vonk",
     omschrijving:
       "Vonk is een groeiplek in Boechout voor jongeren tussen 15 en 23 jaar met een psychische kwetsbaarheid.",
-    website: "https:// www.vonkplek.be ",
+    website: "https://www.vonkplek.be",
     // foto: "Vonk.png",
     voorstellingen: ["Ranst"], // verwijs naar de "keys" van de voorstellingen
   },
