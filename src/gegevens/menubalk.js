@@ -1,13 +1,15 @@
 import BankVooruit from "../pages/BankVooruit";
 import Sponsoring from "../pages/Sponsoring";
-import Quiz2023 from "../pages/2023Quiz";
-import Quiz2018 from "../pages/2018Quiz";
 
 import * as gegevens2017Acht from "./2017-acht";
+import * as gegevens2018Quiz from "./2018-quiz";
 import * as gegevens2019CVDK from "./2019-code-vd-kaart";
 import * as gegevens2022Goudje from "./2022-goudje";
+import * as gegevens2023Quiz from "./2023-quiz";
 import * as gegevens2024Roloc from "./2024-roloc";
+
 import Project from "../components/Project";
+import Quiz from "../components/Quiz";
 
 export const logo = "theaterbankvooruit.png";
 export const background = "Website_Achtergrond.png";
@@ -28,7 +30,11 @@ export const links = [
   {
     label: "Om nooit te vergeten",
     link: [
-      { label: "Quiz (2023)", link: "/2023-quiz", component: <Quiz2023 /> },
+      {
+        label: "Quiz (2023)",
+        link: "/2023-quiz",
+        component: <Quiz {...gegevens2023Quiz} />,
+      },
       {
         label: "Goudje en de heldere maan (2022)",
         link: "/2022-goudje",
@@ -39,7 +45,11 @@ export const links = [
         link: "/2019-code-vd-kaart",
         component: <Project {...gegevens2019CVDK} />,
       },
-      { label: "Quiz (2018)", link: "/2018-quiz", component: <Quiz2018 /> },
+      {
+        label: "Quiz (2018)",
+        link: "/2018-quiz",
+        component: <Quiz {...gegevens2018Quiz} />,
+      },
       {
         label: "Acht (2017)",
         link: "/2017-acht",
