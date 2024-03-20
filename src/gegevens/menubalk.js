@@ -1,11 +1,13 @@
 import BankVooruit from "../pages/BankVooruit";
 import Sponsoring from "../pages/Sponsoring";
-import Roloc2024 from "../pages/2024Roloc";
 import Quiz2023 from "../pages/2023Quiz";
-import Goudje2022 from "../pages/2022Goudje";
-import CodeVDKaart2019 from "../pages/2019CodeVDKaart";
 import Quiz2018 from "../pages/2018Quiz";
-import Acht2017 from "../pages/2017Acht";
+
+import * as gegevens2017Acht from "./2017-acht";
+import * as gegevens2019CVDK from "./2019-code-vd-kaart";
+import * as gegevens2022Goudje from "./2022-goudje";
+import * as gegevens2024Roloc from "./2024-roloc";
+import Project from "../components/Project";
 
 export const logo = "theaterbankvooruit.png";
 export const background = "Website_Achtergrond.png";
@@ -20,7 +22,7 @@ export const links = [
   {
     label: "De legende van Roloc",
     link: "/2024-roloc",
-    component: <Roloc2024 />,
+    component: <Project {...gegevens2024Roloc} />,
   },
   { label: "Sponsoring", link: "/sponsoring", component: <Sponsoring /> },
   {
@@ -30,15 +32,19 @@ export const links = [
       {
         label: "Goudje en de heldere maan (2022)",
         link: "/2022-goudje",
-        component: <Goudje2022 />,
+        component: <Project {...gegevens2022Goudje} />,
       },
       {
         label: "Code van de Kaart (2019)",
         link: "/2019-code-vd-kaart",
-        component: <CodeVDKaart2019 />,
+        component: <Project {...gegevens2019CVDK} />,
       },
       { label: "Quiz (2018)", link: "/2018-quiz", component: <Quiz2018 /> },
-      { label: "Acht (2017)", link: "/2017-acht", component: <Acht2017 /> },
+      {
+        label: "Acht (2017)",
+        link: "/2017-acht",
+        component: <Project {...gegevens2017Acht} />,
+      },
     ],
   },
 ];
