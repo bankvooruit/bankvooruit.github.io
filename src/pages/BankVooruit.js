@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { map, sortBy } from "lodash";
+
+import { setPageMetaData } from "../setPageMetaData.js";
 
 import { TheaterBankVooruit, mensen } from "../gegevens/bankvooruit";
 import { logo, background, backgroundColor } from "../gegevens/menubalk";
@@ -10,6 +12,10 @@ import TextContainer from "../components/TextContainer";
 import Grid from "../layout/Grid";
 
 export default function BankVooruit() {
+  useEffect(() => {
+    setPageMetaData("Over Theater Bank Vooruit", TheaterBankVooruit.tekst);
+  }, []);
+
   return (
     <BackgroundImage
       image={`/afbeeldingen/${background}`}

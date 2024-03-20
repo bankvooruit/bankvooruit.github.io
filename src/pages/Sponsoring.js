@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import { setPageMetaData } from "../setPageMetaData.js";
 
 import { background, backgroundColor } from "../gegevens/menubalk";
 
@@ -8,6 +10,13 @@ import Link from "../components/Link";
 import TextContainer from "../components/TextContainer";
 
 export default function Sponsoring() {
+  useEffect(() => {
+    setPageMetaData(
+      "Sponsor jij Theater Bank Vooruit?",
+      "Bij Theater Bank Vooruit proberen we alle opbrengsten aan lokale goede doelen te schenken. Omdat we toch een klein budget nodig hebben voor productieonkosten, zijn we heel blij als jij Theater Bank Vooruit wil sponsoren"
+    );
+  }, []);
+
   return (
     <BackgroundImage
       image={`/afbeeldingen/${background}`}

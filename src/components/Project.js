@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { map } from "lodash";
+
+import { setPageMetaData } from "../setPageMetaData.js";
 
 import BackgroundImage from "../layout/BackgroundImage";
 import PageContent from "../layout/PageContent";
@@ -21,6 +23,10 @@ export default function Project({
   goede_doelen,
   children,
 }) {
+  useEffect(() => {
+    setPageMetaData(verhaal.titel, verhaal.terugblik || verhaal.korte_inhoud);
+  }, [verhaal.titel, verhaal.terugblik, verhaal.korte_inhoud]);
+
   return (
     <BackgroundImage
       image={

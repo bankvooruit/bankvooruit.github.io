@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { map, isArray, isString } from "lodash";
+
+import { setPageMetaData } from "../setPageMetaData.js";
 
 import { background, backgroundColor } from "../gegevens/menubalk";
 
@@ -9,6 +11,13 @@ import TextContainer from "../components/TextContainer";
 import Link from "../components/Link";
 
 export default function Quiz({ quiz_id, quiz, sponsors }) {
+  useEffect(() => {
+    setPageMetaData(
+      `Quiz ${quiz.jaartal}`,
+      quiz.terugblik || quiz.korte_inhoud
+    );
+  }, [quiz.jaartal, quiz.terugblik, quiz.korte_inhoud]);
+
   function renderEigenschap(value) {
     return isString(value) ? (
       value
