@@ -11,10 +11,10 @@ export default function Voorstelling({
   voorstellingId,
   projectTitel,
 }) {
-  const nu = moment();
+  const gisteren = moment().subtract(1, "days");
   const dagVanVoorstelling =
     voorstelling.wanneer && moment(voorstelling.wanneer.date);
-  const isVoorbij = dagVanVoorstelling && dagVanVoorstelling.isBefore(nu);
+  const isVoorbij = dagVanVoorstelling && dagVanVoorstelling.isBefore(gisteren);
 
   function reservatieKnop() {
     if (isVoorbij || voorstelling.verzamelde_centjes) {
