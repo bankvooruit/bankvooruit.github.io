@@ -169,14 +169,14 @@ export const goede_doelen = {
     naam: "Werkgroep Kruimel Krachtig",
     // omschrijving: "Eén-op-éénbegeleiding van personen met een beperking.",
     // website: "https:// www.vzwopweg.be",
-    // foto: "vzwOpWeg.png",
+    foto: "kruimelkrachtig.jpg",
     voorstellingen: ["Herenthout"], // verwijs naar de "keys" van de voorstellingen
   },
   vzwOpWeg: {
     naam: "vzw Op Weg",
     omschrijving: "Eén-op-éénbegeleiding van personen met een beperking.",
     website: "https://www.vzwopweg.be",
-    // foto: "vzwOpWeg.png",
+    foto: "vzwopweg.png",
     voorstellingen: ["Vorselaar"], // verwijs naar de "keys" van de voorstellingen
   },
   Feestvarken: {
@@ -184,7 +184,7 @@ export const goede_doelen = {
     omschrijving:
       "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
     website: "https://feestvarkenvzw.be/",
-    // foto: "feestvarken.png",
+    foto: "feestvarken.png",
     voorstellingen: ["Olen"], // verwijs naar de "keys" van de voorstellingen
   },
   WinterbarDeSchrans: {
@@ -192,14 +192,14 @@ export const goede_doelen = {
     omschrijving:
       "Deze lokale vereniging zamelt centen in voor de strijd tegen kanker.",
     // website: "https:// feestvarkenvzw.be/",
-    // foto: "feestvarken.png",
+    foto: "komoptegenkanker.png",
     voorstellingen: ["Hulshout"], // verwijs naar de "keys" van de voorstellingen
   },
   Levensloop: {
     naam: "Levensloop Neteland",
     omschrijving: "Ondersteuning mensen met kanker en kankeronderzoek",
     // website: "https:// www.levensloop.be/relays/neteland-vorselaar-grobbendonk-2022 ",
-    foto: "Levensloop_Logo.jpg",
+    foto: "levensloopneteland.jpeg",
     voorstellingen: ["Nijlen", "Grobbendonk"], // verwijs naar de "keys" van de voorstellingen
   },
   Vonk: {
@@ -207,7 +207,7 @@ export const goede_doelen = {
     omschrijving:
       "Vonk is een groeiplek in Boechout voor jongeren tussen 15 en 23 jaar met een psychische kwetsbaarheid.",
     website: "https://www.vonkplek.be",
-    // foto: "Vonk.png",
+    foto: "vonk.png",
     voorstellingen: ["Ranst"], // verwijs naar de "keys" van de voorstellingen
   },
 };
