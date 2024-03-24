@@ -1,6 +1,6 @@
 export const voorstelling_id = "2024-roloc";
-// export const background = "achtergrond.png";
-// export const backgroundColor = "[#ead16fff]";
+export const background = "Website_Achtergrond.png";
+export const backgroundColor = "midnight";
 
 export const verhaal = {
   titel: "De legende van Roloc",
@@ -57,11 +57,11 @@ export const voorstellingen = {
       adres: "Markt 23, 2270 Herenthout",
     },
     goede_doelen: ["KruimelKrachtig"], // verwijs naar de "keys" van de goede doelen
-    // verzamelde_centjes: ["€435,80", "€435,80"],
     extra: "Deze voorstelling is een try-out",
     reservatie_link:
       "https:// www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
     // uitverkocht: true,
+    // verzamelde_centjes: ["€435,80", "€435,80"],
   },
   Vorselaar: {
     locatie: "Vorselaar",
@@ -75,9 +75,10 @@ export const voorstellingen = {
       adres: "Cardijnlaan 8, 2290 Vorselaar",
     },
     goede_doelen: ["vzwOpWeg"], // verwijs naar de "keys" van de goede doelen
-    // verzamelde_centjes: ["€591,55"],
     reservatie_link: "https:// vorselaar.be/bankvooruit/",
+    // extra: "Deze voorstelling is een try-out",
     uitverkocht: true,
+    // verzamelde_centjes: ["€591,55"],
   },
   Olen: {
     locatie: "Olen",
@@ -91,10 +92,11 @@ export const voorstellingen = {
       adres: "Domein Teunenberg, 2250 Olen",
     },
     goede_doelen: ["Feestvarken"], // verwijs naar de "keys" van de goede doelen
-    // verzamelde_centjes: ["€674,00"],
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
+    // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
+    // verzamelde_centjes: ["€674,00"],
   },
   Hulshout: {
     locatie: "Hulshout",
@@ -108,9 +110,10 @@ export const voorstellingen = {
       adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     },
     goede_doelen: ["WinterbarDeSchrans"], // verwijs naar de "keys" van de goede doelen
-    // verzamelde_centjes: ["€1290,65"],
     reservatie_link: "https:// www.ticketgang.be/tickets/hulshout#",
+    // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
+    // verzamelde_centjes: ["€1290,65"],
   },
   Grobbendonk: {
     locatie: "Grobbendonk",
@@ -124,9 +127,10 @@ export const voorstellingen = {
       adres: "Vaartkom 6, 2280 Grobbendonk",
     },
     goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
-    // verzamelde_centjes: ["€513,40"],
     reservatie_link: "https:// www.grobbendonk.be/kindertheater",
+    // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
+    // verzamelde_centjes: ["€513,40"],
   },
   Nijlen: {
     locatie: "Nijlen",
@@ -140,11 +144,11 @@ export const voorstellingen = {
       adres: "Berlaarsesteenweg 2, 2560 Kessel",
     },
     goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
-    // verzamelde_centjes: ["€435,80", "€435,80"],
-    extra: "Georganiseerd door de Gezinsbond",
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
+    extra: "Georganiseerd door de Gezinsbond",
     // uitverkocht: true,
+    // verzamelde_centjes: ["€435,80", "€435,80"],
   },
   Ranst: {
     locatie: "Ranst",
@@ -158,9 +162,10 @@ export const voorstellingen = {
       adres: "Antwerpsesteenweg 43, 2520 Broechem",
     },
     goede_doelen: ["Vonk"], // verwijs naar de "keys" van de goede doelen
-    // verzamelde_centjes: ["€900,00"],
     reservatie_link: "https:// www.ranst.be/theaterbankvooruit",
+    // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
+    // verzamelde_centjes: ["€900,00"],
   },
 };
 
