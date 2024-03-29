@@ -75,7 +75,7 @@ export const voorstellingen = {
       adres: "Cardijnlaan 8, 2290 Vorselaar",
     },
     goede_doelen: ["vzwOpWeg"], // verwijs naar de "keys" van de goede doelen
-    reservatie_link: "https:// vorselaar.be/bankvooruit/",
+    reservatie_link: "https://vorselaar.be/bankvooruit/",
     // extra: "Deze voorstelling is een try-out",
     uitverkocht: true,
     // verzamelde_centjes: ["€591,55"],
@@ -110,7 +110,7 @@ export const voorstellingen = {
       adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     },
     goede_doelen: ["WinterbarDeSchrans"], // verwijs naar de "keys" van de goede doelen
-    reservatie_link: "https:// www.ticketgang.be/tickets/hulshout#",
+    reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
     // verzamelde_centjes: ["€1290,65"],
@@ -127,7 +127,7 @@ export const voorstellingen = {
       adres: "Vaartkom 6, 2280 Grobbendonk",
     },
     goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
-    reservatie_link: "https:// www.grobbendonk.be/kindertheater",
+    reservatie_link: "https://www.grobbendonk.be/kindertheater",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
     // verzamelde_centjes: ["€513,40"],
@@ -162,7 +162,7 @@ export const voorstellingen = {
       adres: "Antwerpsesteenweg 43, 2520 Broechem",
     },
     goede_doelen: ["Vonk"], // verwijs naar de "keys" van de goede doelen
-    reservatie_link: "https:// www.ranst.be/theaterbankvooruit",
+    reservatie_link: "https://www.ranst.be/theaterbankvooruit",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
     // verzamelde_centjes: ["€900,00"],
