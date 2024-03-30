@@ -162,7 +162,7 @@ export const voorstellingen = {
       adres: "Antwerpsesteenweg 43, 2520 Broechem",
     },
     goede_doelen: ["Vonk"], // verwijs naar de "keys" van de goede doelen
-    reservatie_link: "https://www.ranst.be/theaterbankvooruit",
+    reservatie_link: "https://eloket.ranst.be/nl/theaterbankvooruit",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
     // verzamelde_centjes: ["€900,00"],
