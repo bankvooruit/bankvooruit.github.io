@@ -40,7 +40,7 @@ export const verhaal = {
   //    beeld: "boek_transparant.png",
   //    omschrijving: "Oplichtend boek",
   //  },
-  //],
+  // ],
   sfeerbeelden: [
   "roloc 01.jpg",
   "roloc 02.jpg",
@@ -78,7 +78,7 @@ export const voorstellingen = {
     // verzamelde_centjes: ["€435,80", "€435,80"],
   },
   Vorselaar: {
-    // locatie: "Vorselaar",
+    locatie: "Vorselaar",
     // wanneer: {
     //   date: "2024-03-30",
     //   dag: "Zaterdag 30 maart 2024",
