@@ -31,31 +31,45 @@ export const verhaal = {
       value: "Dominique Maerten",
     },
   ],
-  promo_beelden: [
-    {
-      beeld: "titel_transparant.png",
-      omschrijving: "De legende van Roloc",
-    },
-    {
-      beeld: "boek_transparant.png",
-      omschrijving: "Oplichtend boek",
-    },
+  // promo_beelden: [
+  //  {
+  //    beeld: "titel_transparant.png",
+  //    omschrijving: "De legende van Roloc",
+  //  },
+  //  {
+  //    beeld: "boek_transparant.png",
+  //    omschrijving: "Oplichtend boek",
+  //  },
+  //],
+  sfeerbeelden: [
+  "roloc 01.jpg",
+  "roloc 02.jpg",
+  "roloc 03.jpg",
+  "roloc 04.jpg",
+  "roloc 05.jpg",
+  "roloc 06.jpg",
+  "roloc 07.jpg",
+  "roloc 08.jpg",
+  "roloc 09.jpg",
+  "roloc 10.jpg",
+  "roloc 11.jpg",
+  "roloc 12.jpg",
+  "roloc 13.jpg",
   ],
-  sfeerbeelden: [],
 };
 
 export const voorstellingen = {
   Herenthout: {
     locatie: "Herenthout",
-    wanneer: {
-      date: "2024-03-17",
-      dag: "Zondag 17 maart 2024",
-      uren: ["10u30"],
-    },
-    waar: {
-      gebouw: "Zaal Lux",
-      adres: "Markt 23, 2270 Herenthout",
-    },
+    // wanneer: {
+    //  date: "2024-03-17",
+    //  dag: "Zondag 17 maart 2024",
+    //  uren: ["10u30"],
+    // },
+    // waar: {
+    //   gebouw: "Zaal Lux",
+    //   adres: "Markt 23, 2270 Herenthout",
+    // },
     goede_doelen: ["KruimelKrachtig"], // verwijs naar de "keys" van de goede doelen
     extra: "Deze voorstelling is een try-out",
     reservatie_link:
@@ -64,16 +78,16 @@ export const voorstellingen = {
     // verzamelde_centjes: ["€435,80", "€435,80"],
   },
   Vorselaar: {
-    locatie: "Vorselaar",
-    wanneer: {
-      date: "2024-03-30",
-      dag: "Zaterdag 30 maart 2024",
-      uren: ["10u30"],
-    },
-    waar: {
-      gebouw: "De Kampus",
-      adres: "Cardijnlaan 8, 2290 Vorselaar",
-    },
+    // locatie: "Vorselaar",
+    // wanneer: {
+    //   date: "2024-03-30",
+    //   dag: "Zaterdag 30 maart 2024",
+    //   uren: ["10u30"],
+    // },
+    // waar: {
+    //   gebouw: "De Kampus",
+    //   adres: "Cardijnlaan 8, 2290 Vorselaar",
+    // },
     goede_doelen: ["vzwOpWeg"], // verwijs naar de "keys" van de goede doelen
     reservatie_link: "https://vorselaar.be/bankvooruit/",
     // extra: "Deze voorstelling is een try-out",
@@ -82,15 +96,15 @@ export const voorstellingen = {
   },
   Olen: {
     locatie: "Olen",
-    wanneer: {
-      date: "2024-04-02",
-      dag: "Dinsdag 2 april 2024",
-      uren: ["10u30"],
-    },
-    waar: {
-      gebouw: "Theaterzaal Het Vierde Oor",
-      adres: "Domein Teunenberg, 2250 Olen",
-    },
+    // wanneer: {
+    //   date: "2024-04-02",
+    //   dag: "Dinsdag 2 april 2024",
+    //   uren: ["10u30"],
+    // },
+    // waar: {
+    //   gebouw: "Theaterzaal Het Vierde Oor",
+    //   adres: "Domein Teunenberg, 2250 Olen",
+    // },
     goede_doelen: ["Feestvarken"], // verwijs naar de "keys" van de goede doelen
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
@@ -100,15 +114,15 @@ export const voorstellingen = {
   },
   Hulshout: {
     locatie: "Hulshout",
-    wanneer: {
-      date: "2024-04-03",
-      dag: "Woensdag 3 april 2024",
-      uren: ["10u30"],
-    },
-    waar: {
-      gebouw: "Gemeenschapscentrum IJzermael",
-      adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
-    },
+    // wanneer: {
+    //   date: "2024-04-03",
+    //   dag: "Woensdag 3 april 2024",
+    //   uren: ["10u30"],
+    // },
+    // waar: {
+    //   gebouw: "Gemeenschapscentrum IJzermael",
+    //   adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
+    // },
     goede_doelen: ["WinterbarDeSchrans"], // verwijs naar de "keys" van de goede doelen
     reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
     // extra: "Deze voorstelling is een try-out",
@@ -117,15 +131,15 @@ export const voorstellingen = {
   },
   Grobbendonk: {
     locatie: "Grobbendonk",
-    wanneer: {
-      date: "2024-04-04",
-      dag: "Donderdag 4 april 2024",
-      uren: ["10u30"],
-    },
-    waar: {
-      gebouw: "Volle Vaart",
-      adres: "Vaartkom 6, 2280 Grobbendonk",
-    },
+    // wanneer: {
+    //   date: "2024-04-04",
+    //   dag: "Donderdag 4 april 2024",
+    //   uren: ["10u30"],
+    // },
+    // waar: {
+    //   gebouw: "Volle Vaart",
+    //   adres: "Vaartkom 6, 2280 Grobbendonk",
+    // },
     goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
     reservatie_link: "https://www.grobbendonk.be/kindertheater",
     // extra: "Deze voorstelling is een try-out",
@@ -134,15 +148,15 @@ export const voorstellingen = {
   },
   Nijlen: {
     locatie: "Nijlen",
-    wanneer: {
-      date: "2024-04-10",
-      dag: "Woensdag 10 april 2024",
-      uren: ["14u00"],
-    },
-    waar: {
-      gebouw: "Gemeenschapscentrum 't Dorp",
-      adres: "Berlaarsesteenweg 2, 2560 Kessel",
-    },
+    // wanneer: {
+    //   date: "2024-04-10",
+    //   dag: "Woensdag 10 april 2024",
+    //   uren: ["14u00"],
+    // },
+    // waar: {
+    //   gebouw: "Gemeenschapscentrum 't Dorp",
+    //   adres: "Berlaarsesteenweg 2, 2560 Kessel",
+    // },
     goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
@@ -152,15 +166,15 @@ export const voorstellingen = {
   },
   Ranst: {
     locatie: "Ranst",
-    wanneer: {
-      date: "2024-04-11",
-      dag: "Donderdag 11 april 2024",
-      uren: ["10u30"],
-    },
-    waar: {
-      gebouw: "GC Den Boomgaard",
-      adres: "Antwerpsesteenweg 43, 2520 Broechem",
-    },
+    // wanneer: {
+    //   date: "2024-04-11",
+    //   dag: "Donderdag 11 april 2024",
+    //   uren: ["10u30"],
+    // },
+    // waar: {
+    //   gebouw: "GC Den Boomgaard",
+    //   adres: "Antwerpsesteenweg 43, 2520 Broechem",
+    // },
     goede_doelen: ["Vonk"], // verwijs naar de "keys" van de goede doelen
     reservatie_link: "https://eloket.ranst.be/nl/theaterbankvooruit",
     // extra: "Deze voorstelling is een try-out",
@@ -179,39 +193,39 @@ export const goede_doelen = {
   },
   vzwOpWeg: {
     naam: "vzw Op Weg",
-    omschrijving: "Eén-op-éénbegeleiding van personen met een beperking.",
-    website: "https://www.vzwopweg.be",
+    // omschrijving: "Eén-op-éénbegeleiding van personen met een beperking.",
+    // website: "https://www.vzwopweg.be",
     foto: "vzwopweg.png",
     voorstellingen: ["Vorselaar"], // verwijs naar de "keys" van de voorstellingen
   },
   Feestvarken: {
     naam: "Feestvarken vzw",
-    omschrijving:
-      "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
-    website: "https://feestvarkenvzw.be/",
+    // omschrijving:
+    //   "Verjaardagspakketten voor kinderen die opgroeien in armoede.",
+    // website: "https://feestvarkenvzw.be/",
     foto: "feestvarken.png",
     voorstellingen: ["Olen"], // verwijs naar de "keys" van de voorstellingen
   },
   WinterbarDeSchrans: {
     naam: "Winterbar De Schrans - Kom op tegen Kanker",
-    omschrijving:
-      "Deze lokale vereniging zamelt centen in voor de strijd tegen kanker.",
+    // omschrijving:
+    //   "Deze lokale vereniging zamelt centen in voor de strijd tegen kanker.",
     // website: "https:// feestvarkenvzw.be/",
     foto: "komoptegenkanker.png",
     voorstellingen: ["Hulshout"], // verwijs naar de "keys" van de voorstellingen
   },
   Levensloop: {
     naam: "Levensloop Neteland",
-    omschrijving: "Ondersteuning mensen met kanker en kankeronderzoek",
+    // omschrijving: "Ondersteuning mensen met kanker en kankeronderzoek",
     // website: "https:// www.levensloop.be/relays/neteland-vorselaar-grobbendonk-2022 ",
     foto: "levensloopneteland.jpeg",
     voorstellingen: ["Nijlen", "Grobbendonk"], // verwijs naar de "keys" van de voorstellingen
   },
   Vonk: {
     naam: "Vonk",
-    omschrijving:
-      "Vonk is een groeiplek in Boechout voor jongeren tussen 15 en 23 jaar met een psychische kwetsbaarheid.",
-    website: "https://www.vonkplek.be",
+    // omschrijving:
+    //   "Vonk is een groeiplek in Boechout voor jongeren tussen 15 en 23 jaar met een psychische kwetsbaarheid.",
+    // website: "https://www.vonkplek.be",
     foto: "vonk.png",
     voorstellingen: ["Ranst"], // verwijs naar de "keys" van de voorstellingen
   },
