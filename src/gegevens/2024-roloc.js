@@ -78,7 +78,7 @@ export const voorstellingen = {
     reservatie_link: "https://vorselaar.be/bankvooruit/",
     // extra: "Deze voorstelling is een try-out",
     uitverkocht: true,
-    // verzamelde_centjes: ["€591,55"],
+    verzamelde_centjes: ["€1134,88"],
   },
   Olen: {
     locatie: "Olen",
@@ -113,7 +113,7 @@ export const voorstellingen = {
     reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
-    // verzamelde_centjes: ["€1290,65"],
+    verzamelde_centjes: ["€432,00"],
   },
   Grobbendonk: {
     locatie: "Grobbendonk",
@@ -130,7 +130,7 @@ export const voorstellingen = {
     reservatie_link: "https://www.grobbendonk.be/kindertheater",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
-    // verzamelde_centjes: ["€513,40"],
+    verzamelde_centjes: ["€878,50"],
   },
   Nijlen: {
     locatie: "Nijlen",
@@ -148,7 +148,7 @@ export const voorstellingen = {
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
     extra: "Georganiseerd door de Gezinsbond",
     // uitverkocht: true,
-    // verzamelde_centjes: ["€435,80", "€435,80"],
+    verzamelde_centjes: ["€1000"],
   },
   Ranst: {
     locatie: "Ranst",
@@ -165,7 +165,7 @@ export const voorstellingen = {
     reservatie_link: "https://eloket.ranst.be/nl/theaterbankvooruit",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
-    // verzamelde_centjes: ["€900,00"],
+    verzamelde_centjes: ["€840,00"],
   },
 };
 
