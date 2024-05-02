@@ -75,7 +75,7 @@ export const voorstellingen = {
     reservatie_link:
       "https:// www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
     // uitverkocht: true,
-    verzamelde_centjes: ["Bezig met tellen"],
+    verzamelde_centjes: ["€700,00"],
   },
   Vorselaar: {
     locatie: "Vorselaar",
@@ -110,7 +110,7 @@ export const voorstellingen = {
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
     // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
-    verzamelde_centjes: ["Bezig met tellen"],
+    verzamelde_centjes: ["€793,50"],
   },
   Hulshout: {
     locatie: "Hulshout",
