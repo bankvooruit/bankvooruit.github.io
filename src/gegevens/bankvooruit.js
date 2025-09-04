@@ -7,7 +7,7 @@ export const TheaterBankVooruit = {
 export const mensen = {
   Sanne: {
     naam: "Sanne Spruyt",
-    woonplaats: "Lille",
+    woonplaats: "Vorselaar",
     beroep: "Leerkracht lager onderwijs",
     gezin: "Mama van Jesse en Janne",
     theaterconnecties:
