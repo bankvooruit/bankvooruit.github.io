@@ -20,7 +20,7 @@ export const mensen = {
     naam: "Bart Lambrechts",
     woonplaats: "Lier",
     beroep: "Leerkracht secundair onderwijs",
-    gezin: "Papa van Felien en Joppe",
+    gezin: "Papa van Felien, Joppe en Nore",
     theaterconnecties:
       "Oud-lid bij Tejaterbende Oeps!, speelt en maakt bij Theater Tante Wilhelmina",
     levensmotto: "Heb de ander lief zoals jezelf",
