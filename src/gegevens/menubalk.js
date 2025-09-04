@@ -7,6 +7,7 @@ import * as gegevens2019CVDK from "./2019-code-vd-kaart";
 import * as gegevens2022Goudje from "./2022-goudje";
 import * as gegevens2023Quiz from "./2023-quiz";
 import * as gegevens2024Roloc from "./2024-roloc";
+import * as gegevens2025Quiz from "./2025-quiz";
 
 import Project from "../components/Project";
 import Quiz from "../components/Quiz";
@@ -22,14 +23,19 @@ export const links = [
     component: <BankVooruit />,
   },
   {
-    label: "De legende van Roloc",
-    link: "/2024-roloc",
-    component: <Project {...gegevens2024Roloc} />,
+    label: "Quiz",
+    link: "/2025-quiz",
+    component: <Quiz {...gegevens2025Quiz} />,
   },
   { label: "Sponsoring", link: "/sponsoring", component: <Sponsoring /> },
   {
     label: "Om nooit te vergeten",
     link: [
+      {
+        label: "De legende van Roloc (2024)",
+        link: "/2024-roloc",
+        component: <Project {...gegevens2024Roloc} />,
+      },
       {
         label: "Quiz (2023)",
         link: "/2023-quiz",
