@@ -11,7 +11,7 @@ const korte_inhoud =
 export const quiz = {
   jaartal: "2025",
   link_inschrijvingsformulier,
-  flyer: "quizFlyer.jpg",
+  flyer: "quizFlyer.png",
   korte_inhoud,
   // terugblik,
   eigenschappen: [
