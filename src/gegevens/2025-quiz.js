@@ -1,7 +1,7 @@
 export const quiz_id = "2025-quiz";
 
 const link_inschrijvingsformulier =
-  "https://qrto.org/Vckhsc";
+  "https://docs.google.com/forms/d/1MpdZU9_tBPZEZFvIfY0y6aeOuanlztii-qL51a0PaCo/viewform?edit_requested=true";
 const korte_inhoud =
   "Een lichtvoetige familiequiz voor iedereen die al eens van quizzen houdt. In samenwerking met Theaterling, ten voordele van de MS-Liga Vlaanderen";
 // const terugblik =
