@@ -59,7 +59,7 @@ export const mensen = {
     woonplaats: "Deurne",
     beroep: "HR consultant",
     theaterconnecties:
-      "Oud-lid bij improtheater Preparee, lid bij improtheater Fnørk, speelt bij KT Streven in Mortsel",
+      "Oud-lid bij improtheater Preparee, lid bij improtheater de improgenen, speelt bij KT Streven in Mortsel en Mortsels jeugdtoneel",
     levensmotto: "Het leven is een lange rij veranderingen",
     foto: "Pieter.JPG",
   },
