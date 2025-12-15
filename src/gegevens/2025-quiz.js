@@ -59,4 +59,10 @@ export const sponsors = {
     met_dank: "Met dank aan onze lekkere sponsor",
     logo: "JulesDestrooper.png",
   },
+  DakwerkenHenK: {
+    label: "H en K dakwerken",
+    website: "https://dakwerkenh-en-k.be/",
+    met_dank: "Met dank aan onze handige sponsor",
+    logo: "henk.jpg",
+  },
 };
