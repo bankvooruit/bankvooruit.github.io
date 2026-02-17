@@ -3,6 +3,11 @@
 
 name: Deploy Website
 
+permissions:
+  contents: write  # This allows the action to push to your repository
+  pages: write     # This is often needed for GitHub Pages
+  id-token: write
+
 on:
   push:
     branches: ["master"]
