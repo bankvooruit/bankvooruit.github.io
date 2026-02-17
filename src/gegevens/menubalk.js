@@ -8,13 +8,14 @@ import * as gegevens2022Goudje from "./2022-goudje";
 import * as gegevens2023Quiz from "./2023-quiz";
 import * as gegevens2024Roloc from "./2024-roloc";
 import * as gegevens2025Quiz from "./2025-quiz";
+import * as gegevens2026Stilzwijgen from "./2026-stilzwijgen";
 
 import Project from "../components/Project";
 import Quiz from "../components/Quiz";
 
 export const logo = "theaterbankvooruit.png";
-export const background = "Website_Achtergrond.png";
-export const backgroundColor = "midnight";
+export const background = "Website_Achtergrond.jpg";
+export const backgroundColor = "black";
 
 export const links = [
   {
@@ -23,14 +24,19 @@ export const links = [
     component: <BankVooruit />,
   },
   {
-    label: "Quiz",
-    link: "/2025-quiz",
-    component: <Quiz {...gegevens2025Quiz} />,
+    label: "Stilzwijgen",
+    link: "/2026-stilzwijgen",
+    component: <Project {...gegevens2026Stilzwijgen} />,
   },
   { label: "Sponsoring", link: "/sponsoring", component: <Sponsoring /> },
   {
     label: "Om nooit te vergeten",
     link: [
+      {
+        label: "Quiz (2025)",
+        link: "/2025-quiz",
+        component: <Quiz {...gegevens2025Quiz} />,
+      },
       {
         label: "De legende van Roloc (2024)",
         link: "/2024-roloc",

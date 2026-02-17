@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { map } from "lodash";
+import { keys, map } from "lodash";
 
 import { setPageMetaData } from "../setPageMetaData.js";
 
@@ -60,19 +60,31 @@ export default function Project({
             />
           )}
           <ProjectIntro verhaal={verhaal} voorstellingId={voorstelling_id} />
-          {voorstellingen && (
-            <Grid>
-              {map(voorstellingen, (voorstelling) => (
+          {voorstellingen &&
+            (keys(voorstellingen).length > 1 ? (
+              <Grid>
+                {map(voorstellingen, (voorstelling) => (
+                  <Voorstelling
+                    key={voorstelling.locatie}
+                    voorstelling={voorstelling}
+                    goedeDoelen={goede_doelen}
+                    voorstellingId={voorstelling_id}
+                    projectTitel={verhaal.titel}
+                  />
+                ))}
+              </Grid>
+            ) : (
+              // single voorstelling (or an object) — render centered and full-width for better appearance
+              <div className="max-w-4xl mx-auto my-8">
                 <Voorstelling
-                  key={voorstelling.locatie}
-                  voorstelling={voorstelling}
+                  voorstelling={voorstellingen[keys(voorstellingen)[0]]}
                   goedeDoelen={goede_doelen}
                   voorstellingId={voorstelling_id}
                   projectTitel={verhaal.titel}
+                  centered={true}
                 />
-              ))}
-            </Grid>
-          )}
+              </div>
+            ))}
         </div>
       </PageContent>
     </BackgroundImage>

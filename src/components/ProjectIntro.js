@@ -19,7 +19,9 @@ export default function ProjectIntro({ verhaal }) {
         <p className="text-center text-xl font-normal text-gray-500 dark:text-gray-400 py-2">
           {verhaal.terugblik}
         </p>
-        <ul className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16 px-8 md:px-32">
+        <ul
+          className={`grid grid-cols-2 lg:grid-cols-${Math.min(4, verhaal.eigenschappen?.length || 0)} gap-8 mt-16 px-8 md:px-32`}
+        >
           {verhaal.eigenschappen &&
             map(verhaal.eigenschappen, (eigenschap) => (
               <li key={eigenschap.label}>
