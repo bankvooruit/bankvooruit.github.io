@@ -9,6 +9,7 @@ import * as gegevens2023Quiz from "./2023-quiz";
 import * as gegevens2024Roloc from "./2024-roloc";
 import * as gegevens2025Quiz from "./2025-quiz";
 import * as gegevens2026Stilzwijgen from "./2026-stilzwijgen";
+import * as gegevens2026Wintergeheim from "./2026-wintergeheim";
 
 import Project from "../components/Project";
 import Quiz from "../components/Quiz";
@@ -24,14 +25,19 @@ export const links = [
     component: <BankVooruit />,
   },
   {
-    label: "Stilzwijgen",
-    link: "/2026-stilzwijgen",
-    component: <Project {...gegevens2026Stilzwijgen} />,
+    label: "Het Bevroren Wintergeheim",
+    link: "/2026-wintergeheim",
+    component: <Project {...gegevens2026Wintergeheim} />,
   },
   { label: "Sponsoring", link: "/sponsoring", component: <Sponsoring /> },
   {
     label: "Om nooit te vergeten",
     link: [
+      {
+        label: "Stilzwijgen (2026)",
+        link: "/2026-stilzwijgen",
+        component: <Project {...gegevens2026Stilzwijgen} />,
+      },
       {
         label: "Quiz (2025)",
         link: "/2025-quiz",
