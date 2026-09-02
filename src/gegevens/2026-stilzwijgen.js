@@ -23,85 +23,88 @@ export const verhaal = {
       value: "Theaterling en Theater Bank Vooruit",
     },
   ],
-  promo_beelden: [
-    {
-      beeld: "flyer.jpeg",
-      omschrijving:
-        "Stilzwijgen: een dame met haar wijsvinger voor haar lippen en een toegeplakte mond",
-    },
-  ],
-  // sfeerbeelden: [
-  //   "Roloc 01.jpg",
-  //   "Roloc 02.jpg",
-  //   "Roloc 03.jpg",
-  //   "Roloc 04.jpg",
-  //   "Roloc 05.jpg",
-  //   "Roloc 06.jpg",
-  //   "Roloc 07.jpg",
-  //   "Roloc 08.jpg",
-  //   "Roloc 09.jpg",
-  //   "Roloc 10.jpg",
-  //   "Roloc 11.jpg",
-  //   "Roloc 12.jpg",
-  //   "Roloc 13.jpg",
+  // promo_beelden: [
+  //   {
+  //     beeld: "flyer.jpeg",
+  //     omschrijving:
+  //       "Stilzwijgen: een dame met haar wijsvinger voor haar lippen en een toegeplakte mond",
+  //   },
   // ],
+  sfeerbeelden: [
+    "Stilzwijgen 01.jpeg",
+    "Stilzwijgen 02.jpeg",
+    "Stilzwijgen 03.jpeg",
+    "Stilzwijgen 04.jpeg",
+    "Stilzwijgen 05.jpeg",
+    "Stilzwijgen 06.jpeg",
+    "Stilzwijgen 07.jpeg",
+    "Stilzwijgen 08.jpeg",
+    "Stilzwijgen 09.jpeg",
+    "Stilzwijgen 10.jpeg",
+    "Stilzwijgen 11.jpeg",
+    "Stilzwijgen 12.jpeg",
+    "Stilzwijgen 13.jpeg",
+    "Stilzwijgen 14.jpeg",
+    "Stilzwijgen 15.jpeg",
+    "Stilzwijgen 16.jpeg",
+  ],
 };
 
 export const voorstellingen = {
   Herentals: {
     locatie: "Herentals",
-    wanneer: [
-      {
-        date: "2026-02-20",
-        dag: "Vrijdag 20 februari 2026",
-        uren: ["20u00"],
-      },
-      {
-        date: "2026-02-21",
-        dag: "Zaterdag 21 februari 2026",
-        uren: ["20u00"],
-      },
-      {
-        date: "2026-02-22",
-        dag: "Zondag 22 februari 2026",
-        uren: ["15u00"],
-      },
-      {
-        date: "2026-02-28",
-        dag: "Zaterdag 28 februari 2026",
-        uren: ["20u00"],
-      },
-      {
-        date: "2026-03-01",
-        dag: "Zondag 1 maart 2026",
-        uren: ["15u00"],
-      },
-      {
-        date: "2026-03-06",
-        dag: "Vrijdag 6 maart 2026",
-        uren: ["20u00"],
-      },
-      {
-        date: "2026-03-07",
-        dag: "Zaterdag 7 maart 2026",
-        uren: ["20u00"],
-      },
-      {
-        date: "2026-03-08",
-        dag: "Zondag 8 maart 2026",
-        uren: ["15u00"],
-      },
-    ],
-    waar: {
-      gebouw: "Kunstencampus Zaal Scène",
-      adres: "Molenvest 21, 2200 Herentals",
-    },
+    // wanneer: [
+    //   {
+    //     date: "2026-02-20",
+    //     dag: "Vrijdag 20 februari 2026",
+    //     uren: ["20u00"],
+    //   },
+    //   {
+    //     date: "2026-02-21",
+    //     dag: "Zaterdag 21 februari 2026",
+    //     uren: ["20u00"],
+    //   },
+    //   {
+    //     date: "2026-02-22",
+    //     dag: "Zondag 22 februari 2026",
+    //     uren: ["15u00"],
+    //   },
+    //   {
+    //     date: "2026-02-28",
+    //     dag: "Zaterdag 28 februari 2026",
+    //     uren: ["20u00"],
+    //   },
+    //   {
+    //     date: "2026-03-01",
+    //     dag: "Zondag 1 maart 2026",
+    //     uren: ["15u00"],
+    //   },
+    //   {
+    //     date: "2026-03-06",
+    //     dag: "Vrijdag 6 maart 2026",
+    //     uren: ["20u00"],
+    //   },
+    //   {
+    //     date: "2026-03-07",
+    //     dag: "Zaterdag 7 maart 2026",
+    //     uren: ["20u00"],
+    //   },
+    //   {
+    //     date: "2026-03-08",
+    //     dag: "Zondag 8 maart 2026",
+    //     uren: ["15u00"],
+    //   },
+    // ],
+    // waar: {
+    //   gebouw: "Kunstencampus Zaal Scène",
+    //   adres: "Molenvest 21, 2200 Herentals",
+    // },
     goede_doelen: ["MSLiga"], // verwijs naar de "keys" van de goede doelen
-    //extra: "Deze voorstelling is een try-out",
+    extra: "Samenwerking met Teaterling",
     reservatie_link:
       "https://tickets.roodfluweel.be/theaterspektakel/Production/Details/bfd4111d-b0ff-44f0-963e-025a5fb06ee4",
     // uitverkocht: true,
-    //verzamelde_centjes: ["€700,00"],
+    verzamelde_centjes: ["4000,00"],
   },
 };
 
