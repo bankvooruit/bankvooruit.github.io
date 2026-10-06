@@ -47,6 +47,7 @@ export const verhaal = {
     "Stilzwijgen 14.jpeg",
     "Stilzwijgen 15.jpeg",
     "Stilzwijgen 16.jpeg",
+    "Stilzwijgen 17.jpg",
   ],
 };
 
