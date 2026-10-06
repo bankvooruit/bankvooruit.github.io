@@ -130,7 +130,8 @@ export const voorstellingen = {
     //   adres: "Vaartkom 6, 2280 Grobbendonk",
     // },
     // goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
-    // reservatie_link: "https://www.grobbendonk.be/kindertheater",
+    reservatie_link:
+      "https://be.ticketgang.eu/orgFrameSaleNew.php?org=5335&event=184198#",
     // // extra: "Deze voorstelling is een try-out",
     // // uitverkocht: true,
     // verzamelde_centjes: ["€878,50"],
