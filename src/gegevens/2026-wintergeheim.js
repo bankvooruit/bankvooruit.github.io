@@ -1,4 +1,4 @@
-export const voorstelling_id = "2026-bevroren-wintergeheim";
+export const voorstelling_id = "2026-wintergeheim";
 export const background = "Website_Achtergrond.jpg";
 export const backgroundColor = "black";
 
@@ -59,7 +59,7 @@ export const voorstellingen = {
     //   gebouw: "Zaal Lux",
     //   adres: "Markt 23, 2270 Herenthout",
     // },
-    // goede_doelen: ["KruimelKrachtig"], // verwijs naar de "keys" van de goede doelen
+    goede_doelen: ["levensloop"], // verwijs naar de "keys" van de goede doelen
     // extra: "Deze voorstelling is een try-out",
     // reservatie_link:
     //   "https:// www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
@@ -77,7 +77,7 @@ export const voorstellingen = {
     //   gebouw: "De Kampus",
     //   adres: "Cardijnlaan 8, 2290 Vorselaar",
     // },
-    // goede_doelen: ["vzwOpWeg"], // verwijs naar de "keys" van de goede doelen
+    goede_doelen: ["villaVip"], // verwijs naar de "keys" van de goede doelen
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=182950",
     // // extra: "Deze voorstelling is een try-out",
@@ -95,7 +95,7 @@ export const voorstellingen = {
     //   gebouw: "Theaterzaal Het Vierde Oor",
     //   adres: "Domein Teunenberg, 2250 Olen",
     // },
-    // goede_doelen: ["Feestvarken"], // verwijs naar de "keys" van de goede doelen
+    goede_doelen: ["emiliusHoeve", "regenboog"], // verwijs naar de "keys" van de goede doelen
     // reservatie_link:
     //   "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
     // // extra: "Deze voorstelling is een try-out",
@@ -113,7 +113,7 @@ export const voorstellingen = {
     //   gebouw: "Gemeenschapscentrum IJzermael",
     //   adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
     // },
-    // goede_doelen: ["WinterbarDeSchrans"], // verwijs naar de "keys" van de goede doelen
+    goede_doelen: ["tejo"], // verwijs naar de "keys" van de goede doelen
     // reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
     // // extra: "Deze voorstelling is een try-out",
     // // uitverkocht: true,
@@ -130,7 +130,7 @@ export const voorstellingen = {
     //   gebouw: "Volle Vaart",
     //   adres: "Vaartkom 6, 2280 Grobbendonk",
     // },
-    // goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
+    goede_doelen: ["dww"], // verwijs naar de "keys" van de goede doelen
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=5335&event=184198#",
     // // extra: "Deze voorstelling is een try-out",
@@ -158,12 +158,52 @@ export const voorstellingen = {
 };
 
 export const goede_doelen = {
-  // MSLiga: {
-  //   naam: "MS Liga",
-  //   omschrijving:
-  //     "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
-  //   website: "https://www.ms-vlaanderen.be/nl",
-  //   foto: "ms-liga.jpg",
-  //   voorstellingen: ["Herentals"], // verwijs naar de "keys" van de voorstellingen
-  // },
+  dww: {
+    naam: "De Warmste Week",
+    // omschrijving:
+    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
+    // website: "https://www.ms-vlaanderen.be/nl",
+    foto: "dww.jpg",
+    voorstellingen: ["Hulshout"], // verwijs naar de "keys" van de voorstellingen
+  },
+  emiliusHoeve: {
+    naam: "Emilius Hoeve",
+    // omschrijving:
+    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
+    // website: "https://www.ms-vlaanderen.be/nl",
+    foto: "emiliusHoeve.png",
+    voorstellingen: ["Nijlen"], // verwijs naar de "keys" van de voorstellingen
+  },
+  levensloop: {
+    naam: "Levensloop",
+    // omschrijving:
+    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
+    // website: "https://www.ms-vlaanderen.be/nl",
+    foto: "levensloop.png",
+    voorstellingen: ["Vorselaar"], // verwijs naar de "keys" van de voorstellingen
+  },
+  regenboog: {
+    naam: "Regenboog",
+    // omschrijving:
+    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
+    // website: "https://www.ms-vlaanderen.be/nl",
+    foto: "regenboog.png",
+    voorstellingen: ["Nijlen"], // verwijs naar de "keys" van de voorstellingen
+  },
+  tejo: {
+    naam: "Tejo",
+    // omschrijving:
+    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
+    // website: "https://www.ms-vlaanderen.be/nl",
+    foto: "tejo.png",
+    voorstellingen: ["Ranst"], // verwijs naar de "keys" van de voorstellingen
+  },
+  villaVip: {
+    naam: "Villa VIP",
+    // omschrijving:
+    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
+    // website: "https://www.ms-vlaanderen.be/nl",
+    foto: "villaVip.png",
+    voorstellingen: ["Olen"], // verwijs naar de "keys" van de voorstellingen
+  },
 };
