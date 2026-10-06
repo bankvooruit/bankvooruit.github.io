@@ -78,7 +78,8 @@ export const voorstellingen = {
     //   adres: "Cardijnlaan 8, 2290 Vorselaar",
     // },
     // goede_doelen: ["vzwOpWeg"], // verwijs naar de "keys" van de goede doelen
-    // reservatie_link: "https://vorselaar.be/bankvooruit/",
+    reservatie_link:
+      "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=182950",
     // // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
     // verzamelde_centjes: ["€1134,88"],
