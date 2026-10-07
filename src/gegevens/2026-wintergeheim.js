@@ -24,11 +24,11 @@ export const verhaal = {
     },
   ],
   promo_beelden: [
-    // {
-    //   beeld: "flyer.jpeg",
-    //   omschrijving:
-    //     "Stilzwijgen: een dame met haar wijsvinger voor haar lippen en een toegeplakte mond",
-    // },
+    {
+      beeld: "flyer.png",
+      omschrijving:
+        "Het Bevroren Wintergeheim: chalet in een besneeuwd berglangschap",
+    },
   ],
   // sfeerbeelden: [
   //   "Roloc 01.jpg",
