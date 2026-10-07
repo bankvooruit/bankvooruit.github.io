@@ -5,7 +5,7 @@ import Link from "../components/Link";
 export default function GoedDoel({ goedDoel, voorstellingId }) {
   return (
     <div key={goedDoel.naam}>
-      <p className="text-xl text-gray-800 dark:text-gray-200 font-light">
+      <p className="text-xl text-gray-800 dark:text-gray-200 py-2 font-light">
         {goedDoel.naam}
       </p>
 

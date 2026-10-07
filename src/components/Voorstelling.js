@@ -142,7 +142,7 @@ export default function Voorstelling({
         <>
           {!voorstelling.verzamelde_centjes && (
             <p
-              className={`text-md text-gray-500 dark:text-gray-400 mx-auto pt-2 font-light ${centerClass}`}
+              className={`text-md text-gray-500 dark:text-gray-400 mx-auto py-2 font-light ${centerClass}`}
             >
               Kom kijken en steun
             </p>
