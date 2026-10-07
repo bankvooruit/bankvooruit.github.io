@@ -20,7 +20,7 @@ export const mensen = {
     naam: "Bart Lambrechts",
     woonplaats: "Lier",
     beroep: "Leerkracht secundair onderwijs",
-    gezin: "Papa van Felien, Joppe en Nore",
+    gezin: "Papa van Felien, Joppe, Nore en Kato",
     theaterconnecties:
       "Oud-lid bij Tejaterbende Oeps!, speelt en maakt bij Theater Tante Wilhelmina",
     levensmotto: "Heb de ander lief zoals jezelf",
@@ -67,7 +67,8 @@ export const mensen = {
     naam: "Stijn Neefs",
     woonplaats: "Hulshout",
     beroep: "Leerkracht secundair onderwijs",
-    theaterconnecties: "Regie in Heilig-Hartcollege in Heist-op-den-Berg en auteur/regisseur bij vzw Zomerspoor in Herentals",
+    theaterconnecties:
+      "Regie in Heilig-Hartcollege in Heist-op-den-Berg en auteur/regisseur bij vzw Zomerspoor in Herentals",
     levensmotto: "Paden ontstaan door ze te bewandelen",
     foto: "Stijn.JPG",
   },
