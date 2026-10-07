@@ -7,6 +7,7 @@ import * as gegevens2019CVDK from "./2019-code-vd-kaart";
 import * as gegevens2022Goudje from "./2022-goudje";
 import * as gegevens2023Quiz from "./2023-quiz";
 import * as gegevens2024Roloc from "./2024-roloc";
+import * as gegevens2024Kleurenoffensief from "./2024-kleurenoffensief";
 import * as gegevens2025Quiz from "./2025-quiz";
 import * as gegevens2026Stilzwijgen from "./2026-stilzwijgen";
 import * as gegevens2026Wintergeheim from "./2026-wintergeheim";
@@ -47,6 +48,11 @@ export const links = [
         label: "De legende van Roloc (2024)",
         link: "/2024-roloc",
         component: <Project {...gegevens2024Roloc} />,
+      },
+      {
+        label: "Kleurenoffensief (2024)",
+        link: "/2024-kleurenoffensief",
+        component: <Project {...gegevens2024Kleurenoffensief} />,
       },
       {
         label: "Quiz (2023)",

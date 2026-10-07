@@ -19,7 +19,7 @@ export default function Voorstelling({
   const isVoorbij = dagVanVoorstelling && dagVanVoorstelling.isBefore(gisteren);
 
   function reservatieKnop() {
-    if (isVoorbij || voorstelling.verzamelde_centjes) {
+    if (!dagVanVoorstelling || isVoorbij || voorstelling.verzamelde_centjes) {
       if (!voorstelling.verzamelde_centjes) {
         return (
           <div
