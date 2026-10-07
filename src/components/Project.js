@@ -45,7 +45,7 @@ export default function Project({
                 <img
                   src={`/afbeeldingen/${voorstelling_id}/promomateriaal/${promo.beeld}`}
                   alt={promo.omschrijving}
-                  className="pt-4 max-h-96 max-w-96 mx-auto"
+                  className="pt-4 mx-auto"
                   key={promo.beeld}
                 />
               ))}
