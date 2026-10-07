@@ -160,49 +160,49 @@ export const voorstellingen = {
 export const goede_doelen = {
   dww: {
     naam: "De Warmste Week",
-    // omschrijving:
-    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
-    // website: "https://www.ms-vlaanderen.be/nl",
+    omschrijving:
+      'De Warmste Week is een jaarlijkse solidariteitsactie, georganiseerd door VRT, die telkens plaatsvindt in de week voor Kerstmis. Het thema van 2026 is "Een warme thuis voor iedereen."',
+    website: "https://www.vrt.be/nl/de-warmste-week",
     foto: "dww.jpg",
     voorstellingen: ["Hulshout"], // verwijs naar de "keys" van de voorstellingen
   },
   emiliusHoeve: {
     naam: "Emilius Hoeve",
-    // omschrijving:
-    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
-    // website: "https://www.ms-vlaanderen.be/nl",
+    omschrijving:
+      "De Emiliushoeve is een kleinschalige zorgboerderij en dagwerking in Bevel (Nijlen) voor volwassenen met een beperking.",
+    website: "https://www.emiliushoeve.be/",
     foto: "emiliusHoeve.png",
     voorstellingen: ["Nijlen"], // verwijs naar de "keys" van de voorstellingen
   },
   levensloop: {
     naam: "Levensloop",
-    // omschrijving:
-    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
-    // website: "https://www.ms-vlaanderen.be/nl",
+    omschrijving:
+      "Levensloop Neteland is een 24-uur durend solidariteitsevenement ten voordele van de Stichting tegen kanker, georganiseerd in de regio Neteland (Herenthout, Nijlen, Grobbendonk en Vorselaar).",
+    website: "https://www.levensloop.be/neteland",
     foto: "levensloop.png",
     voorstellingen: ["Vorselaar"], // verwijs naar de "keys" van de voorstellingen
   },
   regenboog: {
-    naam: "Regenboog",
-    // omschrijving:
-    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
-    // website: "https://www.ms-vlaanderen.be/nl",
+    naam: "De Regenboog",
+    omschrijving:
+      "Buboa De Regenboog is een school voor buitengewoon basisonderwijs in Nijlen.",
+    website: "https://bubaoderegenboog.com/",
     foto: "regenboog.png",
     voorstellingen: ["Nijlen"], // verwijs naar de "keys" van de voorstellingen
   },
   tejo: {
     naam: "Tejo",
-    // omschrijving:
-    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
-    // website: "https://www.ms-vlaanderen.be/nl",
+    omschrijving:
+      "Tejo Vlaanderen is een onafhankelijk burgerinitiatief dat gratis anonieme en snelle therapeutische hulp aanbiedt voor jongeren tussen 10 en 20 jaar.",
+    website: "https://tejo.be/",
     foto: "tejo.png",
     voorstellingen: ["Ranst"], // verwijs naar de "keys" van de voorstellingen
   },
   villaVip: {
     naam: "Villa VIP",
-    // omschrijving:
-    //   "MS Liga deelt informatie over de auto-immuunziekte Multiple Sclerose (MS) en leven met MS, praktische tips, en brengt je in contact met lotgenoten die je begrijpen. Laat je ondersteunen, deel ervaringen, en ontdek hoe jij mee in actie kan komen in de strijd tegen MS.",
-    // website: "https://www.ms-vlaanderen.be/nl",
+    omschrijving:
+      "Een Villa VIP is een hedendaagse, fijne en kleinschalige woning waar 10 volwassenen met een beperking samenwonen met een zorgkoppel.",
+    website: "https://www.villavip.be/",
     foto: "villaVip.png",
     voorstellingen: ["Olen"], // verwijs naar de "keys" van de voorstellingen
   },
