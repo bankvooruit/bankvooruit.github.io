@@ -17,10 +17,9 @@ export default function Voorstelling({
     ? voorstelling.wanneer && moment(voorstelling.wanneer.date)
     : moment(last(voorstelling.wanneer.map((moment) => moment.date).sort()));
   const isVoorbij = dagVanVoorstelling && dagVanVoorstelling.isBefore(gisteren);
-
   function reservatieKnop() {
     if (!dagVanVoorstelling || isVoorbij || voorstelling.verzamelde_centjes) {
-      if (!voorstelling.verzamelde_centjes) {
+      if (!!dagVanVoorstelling && !voorstelling.verzamelde_centjes) {
         return (
           <div
             type="button"
