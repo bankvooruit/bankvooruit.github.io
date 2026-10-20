@@ -107,16 +107,16 @@ export const voorstellingen = {
     wanneer: {
       date: "2026-12-26",
       dag: "Zaterdag 26 december 2026",
-      //uren: ["10u30"],
+      uren: ["14u30"],
     },
-    // waar: {
-    //   gebouw: "Gemeenschapscentrum IJzermael",
-    //   adres: "Monseigneur Raeymaekersstraat 11, 2235 Hulshout",
-    // },
+    waar: {
+      gebouw: "GC Den Boomgaard",
+      adres: "Antwerpsesteenweg 43, 2520 Broechem",
+    },
     goede_doelen: ["tejo"], // verwijs naar de "keys" van de goede doelen
-    // reservatie_link: "https://www.ticketgang.be/tickets/hulshout#",
-    // // extra: "Deze voorstelling is een try-out",
-    // // uitverkocht: true,
+    reservatie_link: "https://www.ranst.be/nieuws/theaterbankvooruit",
+    // extra: "Deze voorstelling is een try-out",
+    // uitverkocht: true,
     // verzamelde_centjes: ["€432,00"],
   },
   Hulshout: {
