@@ -189,7 +189,7 @@ export const goede_doelen = {
     voorstellingen: ["Nijlen"], // verwijs naar de "keys" van de voorstellingen
   },
   tejo: {
-    naam: "Tejo",
+    naam: "Tejo Lier",
     omschrijving:
       "Tejo Vlaanderen is een onafhankelijk burgerinitiatief dat gratis anonieme en snelle therapeutische hulp aanbiedt voor jongeren tussen 10 en 20 jaar.",
     website: "https://tejo.be/",
