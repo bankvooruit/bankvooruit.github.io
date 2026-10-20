@@ -135,24 +135,6 @@ export const voorstellingen = {
     // uitverkocht: true,
     // verzamelde_centjes: ["€878,50"],
   },
-  Herenthout: {
-    locatie: "Herenthout",
-    // wanneer: {
-    //   date: "2026-12-19",
-    //   dag: "Zaterdag 19 december 2026",
-    //   //uren: ["10u30"],
-    // },
-    // // waar: {
-    // //   gebouw: "Gemeenschapscentrum 't Dorp",
-    // //   adres: "Berlaarsesteenweg 2, 2560 Kessel",
-    // // },
-    // goede_doelen: ["Levensloop"], // verwijs naar de "keys" van de goede doelen
-    // reservatie_link:
-    //   "https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#https://be.ticketgang.eu/orgFrameSaleNew.php?org=145039&event=141391#",
-    // extra: "Georganiseerd door de Gezinsbond",
-    // // uitverkocht: true,
-    // verzamelde_centjes: ["€1000"],
-  },
 };
 
 export const goede_doelen = {
