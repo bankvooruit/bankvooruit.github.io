@@ -53,17 +53,16 @@ export const voorstellingen = {
     wanneer: {
       date: "2026-12-19",
       dag: "Zaterdag 19 december 2026",
-      //uren: ["10u30"],
+      uren: ["10u30", "14u30"],
     },
-    // waar: {
-    //   gebouw: "Zaal Lux",
-    //   adres: "Markt 23, 2270 Herenthout",
-    // },
+    waar: {
+      gebouw: "Schuur van de Schranshoeve",
+      adres: "Nieuwstraat 49, 2290 Vorselaar",
+    },
     goede_doelen: ["levensloop"], // verwijs naar de "keys" van de goede doelen
     // extra: "Deze voorstelling is een try-out",
-    // reservatie_link:
-    //   "https:// www.i-active.be/ords/f?p=167:52:::::P52_SLEUTEL,P52_VOLGNR:2363F9BA0805FF3A70DD7E6105F638DE,15560045",
-    // // uitverkocht: true,
+    reservatie_link: "https://www.vorselaar.be/bankvooruit",
+    // uitverkocht: true,
     // verzamelde_centjes: ["€700,00"],
   },
   Olen: {
