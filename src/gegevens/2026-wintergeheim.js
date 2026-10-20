@@ -122,17 +122,17 @@ export const voorstellingen = {
     wanneer: {
       date: "2026-12-28",
       dag: "Maandag 28 december 2026",
-      //uren: ["10u30"],
+      uren: ["14u30"],
     },
-    // waar: {
-    //   gebouw: "Volle Vaart",
-    //   adres: "Vaartkom 6, 2280 Grobbendonk",
-    // },
+    waar: {
+      gebouw: "Zaal De Vloeikens",
+      adres: "Vloeikensstraat 18, 2235 Hulshout",
+    },
     goede_doelen: ["dww"], // verwijs naar de "keys" van de goede doelen
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=5335&event=184198#",
-    // // extra: "Deze voorstelling is een try-out",
-    // // uitverkocht: true,
+    // extra: "Deze voorstelling is een try-out",
+    // uitverkocht: true,
     // verzamelde_centjes: ["€878,50"],
   },
   Herenthout: {
