@@ -70,16 +70,16 @@ export const voorstellingen = {
     wanneer: {
       date: "2026-12-21",
       dag: "Maandag 21 december 2026",
-      //uren: ["10u30"],
+      uren: ["14u30"],
     },
-    // waar: {
-    //   gebouw: "De Kampus",
-    //   adres: "Cardijnlaan 8, 2290 Vorselaar",
-    // },
+    waar: {
+      gebouw: "Theaterzaal Het Vierde Oor, Domein Teunenberg",
+      adres: "Boerenkrijglaan 51e, 2250 Olen",
+    },
     goede_doelen: ["villaVip"], // verwijs naar de "keys" van de goede doelen
     reservatie_link:
       "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=182950",
-    // // extra: "Deze voorstelling is een try-out",
+    // extra: "Deze voorstelling is een try-out",
     // uitverkocht: true,
     // verzamelde_centjes: ["€1134,88"],
   },
@@ -88,16 +88,16 @@ export const voorstellingen = {
     wanneer: {
       date: "2026-12-23",
       dag: "Woensdag 23 december 2026",
-      //uren: ["10u30"],
+      uren: ["14u30"],
     },
-    // waar: {
-    //   gebouw: "Theaterzaal Het Vierde Oor",
-    //   adres: "Domein Teunenberg, 2250 Olen",
-    // },
+    waar: {
+      gebouw: "Gemeenschapscentrum 't Dorp",
+      adres: "Berlaarsesteenweg 2, 2560 Nijlen",
+    },
     goede_doelen: ["emiliusHoeve", "regenboog"], // verwijs naar de "keys" van de goede doelen
     reservatie_link: "https://gezinsbond-nijlen.weticket.io",
-    // // extra: "Deze voorstelling is een try-out",
-    // // uitverkocht: true,
+    // extra: "Deze voorstelling is een try-out",
+    // uitverkocht: true,
     // verzamelde_centjes: ["€793,50"],
   },
   Ranst: {
