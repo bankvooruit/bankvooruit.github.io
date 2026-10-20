@@ -95,8 +95,7 @@ export const voorstellingen = {
     //   adres: "Domein Teunenberg, 2250 Olen",
     // },
     goede_doelen: ["emiliusHoeve", "regenboog"], // verwijs naar de "keys" van de goede doelen
-    // reservatie_link:
-    //   "https://be.ticketgang.eu/orgFrameSaleNew.php?org=2621&event=141799#",
+    reservatie_link: "https://gezinsbond-nijlen.weticket.io",
     // // extra: "Deze voorstelling is een try-out",
     // // uitverkocht: true,
     // verzamelde_centjes: ["€793,50"],
