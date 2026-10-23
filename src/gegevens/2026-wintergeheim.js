@@ -1,5 +1,5 @@
 export const voorstelling_id = "2026-wintergeheim";
-export const background = "Website_Achtergrond.jpg";
+export const background = "Website_Achtergrond.png";
 export const backgroundColor = "black";
 
 export const verhaal = {
@@ -25,9 +25,8 @@ export const verhaal = {
   ],
   promo_beelden: [
     {
-      beeld: "flyer.png",
-      omschrijving:
-        "Het Bevroren Wintergeheim: chalet in een besneeuwd berglangschap",
+      beeld: "title.png",
+      omschrijving: "Het Bevroren Wintergeheim",
     },
   ],
   // sfeerbeelden: [
